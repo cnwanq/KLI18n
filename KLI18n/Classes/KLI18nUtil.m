@@ -33,7 +33,7 @@
 
 + (NSBundle *)localizationBundle {
     
-    static NSString * bundleName = @"KLI18n";
+    static NSString * bundleName = @"KLI18n-Resources";
     NSString *localizationBundlePath = [[NSBundle mainBundle] pathForResource:bundleName ofType:@"bundle"];
     if (!localizationBundlePath) {
         localizationBundlePath = [[NSBundle bundleForClass:[self class]] pathForResource:bundleName ofType:@"bundle"];

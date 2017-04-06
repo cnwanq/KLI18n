@@ -108,7 +108,8 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  s.resources = "KLI18n/Resources/*"
+  s.resource_bundles = {
+      "KLI18n-Resources" => ["KLI18n/Resources/*.lproj"] }
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

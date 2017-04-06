@@ -16,7 +16,7 @@
 		F42132241E94CFD4007ECF5F /* KLI18nTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F42132231E94CFD4007ECF5F /* KLI18nTests.m */; };
 		F421322F1E94CFD4007ECF5F /* KLI18nUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F421322E1E94CFD4007ECF5F /* KLI18nUITests.m */; };
 		F42132411E94D01F007ECF5F /* KLI18nUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F42132401E94D01F007ECF5F /* KLI18nUtil.m */; };
-		F45DC2511E966A5900E58E16 /* KLI18n.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F45DC2501E966A5900E58E16 /* KLI18n.bundle */; };
+		F45DC2561E96742000E58E16 /* i18n.strings in Resources */ = {isa = PBXBuildFile; fileRef = F45DC2581E96742000E58E16 /* i18n.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,15 @@
 		F42132301E94CFD4007ECF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F421323F1E94D01F007ECF5F /* KLI18nUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLI18nUtil.h; sourceTree = "<group>"; };
 		F42132401E94D01F007ECF5F /* KLI18nUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLI18nUtil.m; sourceTree = "<group>"; };
-		F45DC2501E966A5900E58E16 /* KLI18n.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KLI18n.bundle; sourceTree = "<group>"; };
+		F45DC2571E96742000E58E16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/i18n.strings; sourceTree = "<group>"; };
+		F45DC2611E96745B00E58E16 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/i18n.strings"; sourceTree = "<group>"; };
+		F45DC2621E96745C00E58E16 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/i18n.strings"; sourceTree = "<group>"; };
+		F45DC2631E96745E00E58E16 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/i18n.strings; sourceTree = "<group>"; };
+		F45DC2641E96746000E58E16 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/i18n.strings; sourceTree = "<group>"; };
+		F45DC2651E96746200E58E16 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/i18n.strings; sourceTree = "<group>"; };
+		F45DC2661E96746400E58E16 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/i18n.strings; sourceTree = "<group>"; };
+		F45DC2671E96746600E58E16 /* th-TH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "th-TH"; path = "th-TH.lproj/i18n.strings"; sourceTree = "<group>"; };
+		F45DC2681E96746800E58E16 /* id-ID */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "id-ID"; path = "id-ID.lproj/i18n.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +160,7 @@
 		F421323D1E94CFF4007ECF5F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F45DC2501E966A5900E58E16 /* KLI18n.bundle */,
+				F45DC2581E96742000E58E16 /* i18n.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -290,7 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45DC2511E966A5900E58E16 /* KLI18n.bundle in Resources */,
+				F45DC2561E96742000E58E16 /* i18n.strings in Resources */,
 				F42132191E94CFD3007ECF5F /* LaunchScreen.storyboard in Resources */,
 				F42132161E94CFD3007ECF5F /* Assets.xcassets in Resources */,
 				F42132141E94CFD3007ECF5F /* Main.storyboard in Resources */,
@@ -373,6 +381,22 @@
 			);
 			name = LaunchScreen.storyboard;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		F45DC2581E96742000E58E16 /* i18n.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45DC2571E96742000E58E16 /* en */,
+				F45DC2611E96745B00E58E16 /* zh-Hans */,
+				F45DC2621E96745C00E58E16 /* zh-Hant */,
+				F45DC2631E96745E00E58E16 /* ko */,
+				F45DC2641E96746000E58E16 /* ja */,
+				F45DC2651E96746200E58E16 /* fr */,
+				F45DC2661E96746400E58E16 /* de */,
+				F45DC2671E96746600E58E16 /* th-TH */,
+				F45DC2681E96746800E58E16 /* id-ID */,
+			);
+			name = i18n.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
