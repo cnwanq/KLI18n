@@ -39,14 +39,14 @@
 /* Begin PBXFileReference section */
 		F42132061E94CFD3007ECF5F /* KLI18n.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLI18n.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F421320A1E94CFD3007ECF5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F421320C1E94CFD3007ECF5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F421320D1E94CFD3007ECF5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F421320F1E94CFD3007ECF5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F42132101E94CFD3007ECF5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F421320C1E94CFD3007ECF5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		F421320D1E94CFD3007ECF5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		F421320F1E94CFD3007ECF5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		F42132101E94CFD3007ECF5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		F42132131E94CFD3007ECF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F42132151E94CFD3007ECF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42132151E94CFD3007ECF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		F42132181E94CFD3007ECF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F421321A1E94CFD3007ECF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F421321A1E94CFD3007ECF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		F421321F1E94CFD3007ECF5F /* KLI18nTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLI18nTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42132231E94CFD4007ECF5F /* KLI18nTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLI18nTests.m; sourceTree = "<group>"; };
 		F42132251E94CFD4007ECF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,17 +114,9 @@
 		F42132081E94CFD3007ECF5F /* KLI18n */ = {
 			isa = PBXGroup;
 			children = (
+				F45DC2481E96552200E58E16 /* Demo */,
 				F421323C1E94CFF4007ECF5F /* Classes */,
 				F421323D1E94CFF4007ECF5F /* Resources */,
-				F421320C1E94CFD3007ECF5F /* AppDelegate.h */,
-				F421320D1E94CFD3007ECF5F /* AppDelegate.m */,
-				F421320F1E94CFD3007ECF5F /* ViewController.h */,
-				F42132101E94CFD3007ECF5F /* ViewController.m */,
-				F42132121E94CFD3007ECF5F /* Main.storyboard */,
-				F42132151E94CFD3007ECF5F /* Assets.xcassets */,
-				F42132171E94CFD3007ECF5F /* LaunchScreen.storyboard */,
-				F421321A1E94CFD3007ECF5F /* Info.plist */,
-				F42132091E94CFD3007ECF5F /* Supporting Files */,
 			);
 			path = KLI18n;
 			sourceTree = "<group>";
@@ -135,6 +127,7 @@
 				F421320A1E94CFD3007ECF5F /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F42132221E94CFD4007ECF5F /* KLI18nTests */ = {
@@ -178,6 +171,22 @@
 				F45DC2381E96181200E58E16 /* i18n.strings */,
 			);
 			path = i18n;
+			sourceTree = "<group>";
+		};
+		F45DC2481E96552200E58E16 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F421320C1E94CFD3007ECF5F /* AppDelegate.h */,
+				F421320D1E94CFD3007ECF5F /* AppDelegate.m */,
+				F421320F1E94CFD3007ECF5F /* ViewController.h */,
+				F42132101E94CFD3007ECF5F /* ViewController.m */,
+				F42132121E94CFD3007ECF5F /* Main.storyboard */,
+				F42132151E94CFD3007ECF5F /* Assets.xcassets */,
+				F42132171E94CFD3007ECF5F /* LaunchScreen.storyboard */,
+				F421321A1E94CFD3007ECF5F /* Info.plist */,
+				F42132091E94CFD3007ECF5F /* Supporting Files */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,6 +379,7 @@
 				F42132131E94CFD3007ECF5F /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F42132171E94CFD3007ECF5F /* LaunchScreen.storyboard */ = {
@@ -378,6 +388,7 @@
 				F42132181E94CFD3007ECF5F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F45DC2381E96181200E58E16 /* i18n.strings */ = {
