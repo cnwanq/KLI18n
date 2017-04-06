@@ -43,7 +43,7 @@
     
     NSLog(@"test :: %@", testString);
     
-    NSArray *langs = [NSLocale availableLocaleIdentifiers];
+//    NSArray *langs = [NSLocale availableLocaleIdentifiers];
 //    NSLog(@"All Language: %@", langs);
     
     

@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "KLI18n"
   s.version      = "0.0.1"
-  s.summary      = "A short description of KLI18n."
+  s.summary      = "Provide multilingual support for iOS of KLI18n."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  Provide multilingual support for iOS。
+  Convenient to expand other language support
                    DESC
 
   s.homepage     = "https://github.com/cnwanq/KLI18n"
@@ -79,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/KLI18n.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/cnwanq/KLI18n.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +92,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "KLI18n", "KLI18n/Classes", "KLI18n/Classes/**/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -106,7 +108,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  s.resources = "Resources/*"
+  s.resources = "KLI18n/Resources/*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
