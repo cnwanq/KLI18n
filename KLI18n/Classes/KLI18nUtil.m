@@ -72,7 +72,11 @@
 
 - (void)updateLocalizesWithLanguageCode:(NSString *)languageCode
 {
-    self.currentLocalize = languageCode;
+    NSString *localize = languageCode;
+    if (![[self supportLocalizes] containsObject:localize]) {
+        localize = self.defaultLocalize;
+    }
+    self.currentLocalize = localize;
     NSString *path = [[KLI18nUtil localizationBundle] pathForResource:self.currentLocalize ofType:@"lproj" ];
     self.bundle = [NSBundle bundleWithPath:path];
 }
