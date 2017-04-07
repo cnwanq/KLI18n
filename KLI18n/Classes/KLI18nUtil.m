@@ -11,7 +11,6 @@
 @interface KLI18nUtil()
 
 @property (nonatomic, strong) NSBundle *bundle;
-@property (nonatomic, strong) NSString *defaultLocalize;
 
 @end
 
@@ -73,8 +72,8 @@
 
 - (void)updateLocalizesWithLanguageCode:(NSString *)languageCode
 {
-    NSString *bundlePathName = languageCode;
-    NSString *path = [[KLI18nUtil localizationBundle] pathForResource:bundlePathName ofType:@"lproj" ];
+    self.currentLocalize = languageCode;
+    NSString *path = [[KLI18nUtil localizationBundle] pathForResource:self.currentLocalize ofType:@"lproj" ];
     self.bundle = [NSBundle bundleWithPath:path];
 }
 
@@ -131,6 +130,7 @@
             // 没匹配到 设置为英文
             _defaultLocalize = @"en";
         }
+        _currentLocalize = _defaultLocalize;
     }
     return _defaultLocalize;
 }

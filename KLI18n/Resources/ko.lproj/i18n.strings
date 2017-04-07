@@ -5,4 +5,801 @@
   Created by klook on 2017/4/6.
   Copyright © 2017年 klook. All rights reserved.
 */
-"hello" = "Hello3!";
+
+
+"today" = "오늘";
+
+"global.OK" = "확인";
+"global.confirm" = "확인";
+"global.save" = "저장";
+"global.cancel" = "취소";
+"global.saveSuccess" = "저장 완료";
+"global.uploading" = "업로드 중";
+"global.uploadSuccess" = "업로드 완료 ";
+"global.serverError" = "인터넷에 연결할 수 없나요? 걱정마세요. Klook 바우처는 오프라인에서도 볼 수 있어요. ";
+"global.done" = "완료";
+"global.supportNumber" = "+85234626208";
+"global.loadErrorTryLater" = "데이터를 불러오지 못했습니다. 잠시후 다시 시도하세요.";
+"global.requireLogin" = "로그인 하세요. ";
+"global.success" = "완료";
+"global.back" = "뒤로";
+"global.terms" = " 《이용약관》";
+"global.network.error" = "네트워크에 연결할 수 없습니다. 잠시후 다시 시도하세요.";
+"global.network.error.tap.repeat" = "연결 시간이 초과했습니다. 스크린을 터치하여 새로고침하세요. ";
+"global.network.error.checkSet" = "네트워크에 연결할 수 없습니다. 네트워크 상태를 확인하세요.";
+"global.network.error.changeToWLAN.normal" = "Wi-Fi에서 3G/LTE로 전환되었습니다.";
+"global.network.error.changeToWLAN" = "3G/LTE 등으로 접속 시 데이터 통화료가 발생할 수 있습니다. ";
+"global.error.hint" = "오류 코드";
+"global.update.button.title" = "업그레이드 하기";
+
+
+"form.countryPicker.number" = "번호";
+"form.countryPicker.code" = "국가 번호";
+
+"link.terms" = "https://www.klook.com/conditions/";
+"link.remoteVersion" = "https://api.klook.com/ios/iVersion/versions_en.plist";
+
+/* guid */
+"guide.skip" = "skip";
+"guide.start" = "시작";
+"guide.page1.titile" = "나에게 꼭 맞는 여행 ";
+"guide.page1.detail" = "나만의 특별한 여행을 완성해보세요! 투어, 액티비티 그리고 어트랙션까지";
+"guide.page2.titile" = "간편하고, 안전한 결제 시스템";
+"guide.page2.detail" = "간편하게 바로 사용 가능한 티켓을 구매하세요. 패스트패스와 모바일 바우처도 있어요!";
+"guide.page3.titile" = "최저가 보장";
+"guide.page3.detail" = "최대 60%까지 할인 되는 Klook만의 단독 상품을 만나보세요.";
+
+/* tabbar */
+
+"tabbar.explore" = "Explore";
+"tabbar.destination" = "여행지";
+"tabbar.search" = "검색";
+"tabbar.mine" = "나의";
+
+/* explore */
+"explore.more" = "평생 잊지 못할 여행. 떠나보세요. ";
+
+/* payment */
+
+"pay.startTime" = "시작시간";
+"pay.submitOrder" = "예약내역";
+"pay.verified" = "추천여행";
+"pay.gurantee" = "최저가 보장";
+"pay.book" = "다음";
+"pay.selectDate" = "날짜선택";
+"pay.bookDate" = "예약";
+"pay.soldOut" = "Sold Out";
+"pay.selectStartTime" = "시작 시간을 선택하세요";
+"pay.pleasePickStartTime" = "시작 시간을 선택하세요";
+"pay.exceedInventory1" = "인기 폭발";
+"pay.exceedInventory2" = "개 남았습니다.";
+"pay.clickToEdit" = "뒤로가기 ";
+"pay.discountTitle" = "포인트 및 쿠폰 사용 ";
+"pay.payOptionTitle" = "결제수단 선택 ";
+"pay.cardContactName" = "이름";
+"pay.cardPhone" = "전화번호";
+"pay.cardEmail" = "이메일 주소";
+"pay.confirmOrder" = "다음";
+"pay.orderDetail" = "예약 상세내역";
+"pay.specialRequirements" = "요청사항";
+"pay.travelerNo" = "여행자";
+"pay.pleaseInputAllFields" = "모든 입력란을 채우세요. ";
+
+"pay.order.total" = "총 금액";
+"pay.order.saved" = "총 할인금액";
+"pay.order.startTime" = "예약날짜";
+"pay.order.quantity" = "수량";
+
+"pay.pay" = "결제하기 ";
+"pay.useCredits" = "포인트 사용";
+"pay.useCoupon" = "쿠폰 사용";
+
+"pay.credit.yourCredits" = "잔여 포인트";
+"pay.credit.useCredits" = "포인트 사용";
+"pay.credit.inCash" = "현금처럼 사용하기";
+"pay.credit.submit" = "확인";
+"pay.credit.select" = "사용";
+"pay.credit.notApplicable" = "최소 100 포인트 이상 결제시 사용이 가능합니다.";
+"pay.credit.useFail" = "포인트 사용애 실패하였습니다. 잠시후 다시 시도하세요.";
+
+"pay.coupon.useCouponsAlert" = "쿠폰번호를 입력하세요";
+"pay.coupon.useCoupons" = "쿠폰번호 입력하기 ";
+"pay.coupon.extraSavings" = "추가 할인";
+"pay.coupon.useFail" = "쿠폰을 사용하는 데 실패하였습니다. 잠시후 다시 시도하세요.";
+"pay.coupon.submit" = "쿠폰번호 입력하기 ";
+"pay.coupon.select" = "쿠폰번호 입력하기 ";
+"pay.coupon.success" = "사용 완료";
+"pay.coupon.nouse.hint" = "쿠폰 사용안함";
+
+
+"pay.payment.failPleaseRetry" = "결제를 실패하였습니다. 다시 시도하세요.";
+"pay.payment.failOrCheckOrder.title1" = "네트워크에 연결할 수 없습니다. 다시 시도하거나 예약내역에서 주문 상태를 확인하세요.";
+"pay.payment.failOrCheckOrder.title2" = "네트워크에 연결할 수 없어, 결제가 완료되지 않았습니다. 다시 시도하세요.";
+"pay.payment.failOrCheckOrder.retry" = "다시 시도하기";
+"pay.payment.failOrCheckOrder.viewBooking" = "예약내역 확인";
+"pay.payment.failOrCheckOrder.cancel" = "취소";
+"pay.payment.failPleaseCheckLater" = "결제 처리중에 있습니다. 잠시후 예약내역에서 주문 상태를 확인하세요.";
+"pay.payment.klook" = "Klook Travel";
+"pay.payment.payWithAlipay" = "알리페이로 결제";
+"pay.payment.payWithPaypal" = "페이팔로 결제";
+"pay.payment.useCreditCard" = "신용카드로 결제";
+"pay.payment.amount" = "총 금액";
+"pay.payment.saved" = "총 할인금액";
+"pay.payment.transactionWillBeMadeIn" = "결제하신 총 금액은 ";
+"pay.payment.pleaseSelectGateway" = "결제수단을 선택하세요.";
+"pay.payment.totalCredits" = "사용 가능한 포인트：";
+"pay.payment.noCoupon" = "사용 가능한 쿠폰이 없습니다.";
+"pay.payment.noCouponHint" = "쿠폰번호가 있으신가요? “나의 KLOOK”에 코드를 입력하고 쿠폰 받아가세요. ";
+"pay.payment.applePay.cancel.hint" = "결제가 이미 진행되어 취소되지 않을 수도 있습니다. 결제가 완료되면 해당 주문 상태를 예약내역에서 확인할 수 있습니다.";
+
+"pay.status.amountPaid" = "결제 금액";
+"pay.status.checkOrderStatus" = "예약내역 조회";
+"pay.status.paymentSuccess" = "결제 완료";
+"pay.status.paymentResult" = "결제 결과 ";
+"pay.status.keepLooking" = "계속 둘러보기";
+"pay.alipay.status.fail" = "결제 실패";
+
+"pay.quit.hint.title" = "결제를 취소하겠습니까?";
+"pay.quit.hint.message" = "결제를 취소하면 입력된 정보가 모두 사라집니다.";
+"pay.quit.hint.abandon" = "확인";
+"pay.quit.hint.cancel" = "취소";
+
+"pay.otherInfo.quit.hint.title" = "이 페이지를 나가시겠습니까? ";
+"pay.otherInfo.quit.hint.message" = "이 페이지를 나가면 작성한 내용들은 모두 사라집니다.";
+"pay.otherInfo.quit.hint.abandon" = "나가기";
+"pay.otherInfo.quit.hint.cancel" = "취소";
+"pay.otherInfo.row.optional" = "선택사항";
+
+"pay.3DS.cancle.hint.title" = "해당 거래를 취소하였습니다.";
+"pay.3DS.cancle.hint.confirm" = "확인";
+"pay.3DS.invalid.hint.title" = "네트워크 문제로 거래가 취소되었습니다. 잠시후 다시 시도하세요. ";
+"pay.3DS.invalid.hint.confirm" = "확인";
+
+"creditCard.loadingSavedCards" = "저장된 신용카드 정보를 불러오고 있습니다.";
+"creditCard.useCreditCard" = "신용카드로 결제";
+"creditCard.selectCardOrUseNewCard" = "신용카드를 선택하거나 추가하세요.";
+"creditCard.new" = "새로운 신용카드 사용하기";
+"creditCard.saveHint" = "다음 결제를 위해 신용카드 저장";
+"creditCard.inputValidCardInfo" = "신용카드 정보를 올바르게 입력하세요.";
+"creditCard.scanCreditCard" = "신용카드 스캔하기";
+"creditCard.supportTypes" = "사용 가능한 신용카드";
+"creditCard.notSupporType" = "해당 신용카드는 지원되지 않습니다.";
+
+"infoForm.travelerInfoTitle" = "여행자 정보";
+"infoForm.selectTitle" = "Title 선택하기";
+"infoForm.title" = "Title";
+"infoForm.title.mr" = "Mr";
+"infoForm.title.mrs" = "Mrs";
+"infoForm.title.miss" = "Miss";
+"infoForm.title" = "Title";
+"infoForm.firstName" = "이름";
+"infoForm.familyName" = "성";
+"infoForm.email" = "이메일 주소";
+"infoForm.phoneNumber" = "전화번호";
+"infoForm.country" = "국가코드";
+"infoForm.countryPlaceholder" = "입력하거나 선택";
+"infoForm.includeCountryCode" = "국가코드 포함";
+"infoForm.englishPassportFirstName" = "여권에 기재된 영문 이름을 입력하세요.";
+"infoForm.englishPassportLastName" = "여권에 기재된 영문 성을 입력하세요.";
+"infoForm.emailPlaceholder" = "name@example.com";
+"infoForm.countryInvalidCode" = "국가 코드가 무효입니다.";
+"infoForm.countryInvalidInfo" = "국가 코드를 올바르게 입력하세요.";
+
+
+"dest.title" = "여행지";
+"dest.welcomeTo" = "에 오신 것을 환영합니다";
+"dest.activities" = "특별하고, 반짝이는 여행";
+"dest.all" = "전체";
+"dest.popular" = "전체 여행지";
+"dest.moreBtnTitle" = "더 많은 여행지 둘러보기 ";
+"dest.moreDestinationHint" = "더 많은 여행지를 기대해주세요!";
+
+
+"city.readMore" = "더 보기";
+"city.categoriesTitle" = "Category";
+"city.popularActivitiesTitle" = "추천 상품";
+"city.picked.popular" = "인기 액티비티";
+"city.picked.unique" = "색다른 ";
+"city.picked.7days" = "이번주 행사";
+"city.picked.deals" = "이벤트";
+"city.picked.all" = "전체 액티비티";
+"city.allActivities" = "전체 액티비티 보기";
+
+"activityList.calendar" = "날짜별로 보기";
+"activityList.cancel" = "숨기기";
+"activityList.allActivityNavTitle" = "전체 액티비티";
+"activityList.allActivityBtnTitle" = "전체 액티비티 보기";
+"activityList.klookRecommend" = "Klook 추천";
+"activityList.bestSellers" = "인기순";
+"activityList.mostReview" = "평점순";
+"activityList.priceLowToHigh" = "저가격순";
+"activityList.topNewActivities" = "최신 액티비티";
+
+
+"activity.instant" = "바로 사용 가능";
+"activity.instantNotice" = "지금 예약하면, 바로 바우처 사용 가능!";
+"activity.recommend" = "What We Love";
+"activity.readMore" = "더 보기";
+"activity.maskText" = "죄송합니다. 오늘 가능한 액티비티가 없네요. \n 내일은 어떠신가요? ";
+
+"activity.Package" = "패키지";
+"activity.highlights" = "하이라이트";
+"activity.packageDetails" = "상세정보";
+"activity.terms" = "사용방법";
+"activity.cancelation" = "환불안내";
+"activity.booked" = "명의 선택";
+"activity.book" = "예약하기";
+"activity.selectPackage" = "패키지 선택 & 예약";
+"activity.reviewTitle" = "리뷰";
+"activity.reviews" = "리뷰";
+"activity.share" = "공유하기";
+"activity.newOnLine" = "NEW 액티비티";
+"activity.soldOut" = "Sold Out";
+"activity.soldOutHint" = "Sold Out! 스크린을 터치하면 이전 페이지로 돌아갑니다.";
+"activity.booking.tomorrowAvailable" = "내일 바로사용";
+"activity.booking.todayAvailable" = "당일 예약 가능";
+"activity.earliestbookingDate" = "예약 가능";
+"activity.currentlyUnavaliable" = "예약 마감";
+"activity.share.success" = "공유 완료";
+"activity.share.failed" = "공유 실패";
+
+"activity.book.maxnum" = "최대 선택 가능한 수량[max]";
+"activity.book.minnum" = "다음 단계로 넘어가기 위해서는 최소 [min]개 이상 선택해야 합니다. ";
+"activity.book.num.last" = "개";
+"activity.play.hint.noWifi" = "현재 3G/LTE 등에 접속되어 있습니다. 동영상을 재생하겠습니까?";
+"activity.play.confirm" = "확인";
+
+/* TODO, temple translate by Google. */
+"activity.show.tip.home" = "홈으로";
+"activity.show.tip.default.language" = "스위치 언어";
+
+"notifyItem.duration" = "소요 시간";
+"notifyItem.language" = "언어";
+"notifyItem.refund" = "환불";
+"notifyItem.travelers" = "인원수";
+"notifyItem.location" = "지역";
+"notifyItem.transport" = "추천 교통수단";
+"notifyItem.confirmation" = "확인";
+
+
+
+"search.placeHolder" = "여행지 또는 액티비티로 검색하세요.";
+"search.placeHolderByCity" = "액티비티를 검색하세요.";
+"search.history" = "검색 기록";
+"search.title.allCities" = "전체 도시";
+"search.title.results" = "결과：";
+"search.cleanHistory" = "기록 삭제";
+"search.noResults" = "해당 검색 결과가 없습니다.";
+"search.pleaseInputText" = "키워드를 입력하세요.";
+"search.trendingSearches" = "인기 검색어";
+"search.noneResults" = "해당 검색 결과가 없습니다.";
+"search.moreBtnTitle" = "더 많은 여행지 둘러보기";
+"search.city.prompt" = "내가 좋아하는 액티비티, 투어 또는 지역 교통수단을 검색해보세요. ";
+"search.destination.placeholder" = "여행지를 검색하세요.";
+"search.destination.noResult" = "해당 검색 결과가 없습니다.";
+
+/* mine */
+
+"validate.pleaseInputEmailAndPassword" = "아이디 및 비밀번호를 입력하고, 로그인하세요.";
+"register.successMsg" = "Klook의 멤버가 되신 것을 축하합니다! 등록하신 이메일 주소로 메일이 보내질 예정입니다. 안내에 따라 이메일 주소를 활성화시키세요!";
+
+"mine.title" = "MY클룩";
+"mine.loginHint" = "로그인되지 않음";
+"mine.login" = "지금 로그인하고, 여행을 시작하세요.";
+"mine.editAccount" = "계정 관리";
+"mine.credits" = "포인트";
+"mine.coupons" = "쿠폰";
+"mine.menu.voucher" = "바우처";
+"mine.menu.order" = "예약내역";
+"mine.menu.order.unreadOrders" = "결제 완료된 예약 / New";
+"mine.menu.favorite" = "위시리스트";
+"mine.menu.promo" = "쿠폰/포인트 ";
+"mine.menu.credit" = "포인트";
+"mine.menu.coupon" = "쿠폰";
+"mine.menu.review" = "리뷰";
+"mine.menu.refer" = "친구 초대하기";
+"mine.menu.refer.subtitle" = "친구와 함께 여행의 즐거움을 공유하세요!";
+"mine.menu.setting" = "언어/통화 변경";
+"mine.menu.about" = "더 보기";
+"mine.menu.contact" = "고객센터";
+"mine.menu.help" = "자주 묻는 질문";
+"mine.order.dateBooked" = "예약시간：";
+"mine.logout" = "로그아웃";
+"mine.email.invalid" = "유효한 이메일 주소를 입력하세요.";
+
+"about.klookKeepLooking" = "Klook, Yours To Explore!";
+"about.contactKlook" = "고객센터";
+"about.mail" = "이메일 주소 support@klook.com";
+"about.phone" = "문의전화";
+"about.followKlook" = "KLOOK 팔로우하기";
+"about.rate" = "앱 리뷰 남기기";
+"about.web" = "Klook.com에 접속하기";
+"about.service" = "이용약관";
+"about.taiwanPhoneNumberDesc" = "(+886) 2-55933778（대만）";
+"about.hongkongPhoneNumberDesc" = "(+852) 3462-6208（홍콩）";
+"about.chinaPhoneNumberDesc" = "400-869-4088（중국）";
+"about.chinaOutsidePhoneNumberDesc" = "(+86) 755-82552354（해외）";
+"about.klookURL" = "https://www.klook.com/";
+"about.conditionsURL" = "https://www.klook.com/conditions/";
+"about.version" = "버전";
+"about.feedback" = "의견";
+"about.feedback.name" = "이름";
+"about.feedback.nameTF.placheholder" = "이름을 입력하세요.";
+"about.feedback.email" = "이메일 주소";
+"about.feedback.emailTF.placheholder" = "이메일 주소를 입력하세요.";
+"about.feedback.faq.title" = "문의사항";
+"about.feedback.faq.placheholder" = "문의사항을 작성하세요.";
+"about.feedback.feedback.title" = "의견";
+"about.feedback.feedback.placheholder" = "이곳에 자유롭게 의견을 남겨주세요. ";
+"about.feedback.sendBtn" = "확인";
+"about.feedback.emailInvalidHint" = "이메일 주소를 올바르게 입력하세요.";
+"about.kakaoklookURL" = "https://plus.kakao.com/home/@klook";
+
+"about.feedback.appFeedback" = "앱 오류신고";
+"about.feedback.questionCategory" = "문의유형";
+"about.feedback.selectOrder" = "액티비티 선택";
+"about.feedback.selectDestination" = "여행지 선택";
+"about.feedback.askKlook" = "고객센터";
+"about.feedback.detail.name" = "성명";
+"about.feedback.detail.name.placeHolder" = "이름을 입력하세요.";
+"about.feedback.detail.email" = "이메일 주소";
+"about.feedback.detail.email.placeHolder" = "이메일 주소를 입력하세요.";
+"about.feedback.detail.yourQuestion" = "질문사항";
+"about.feedback.detail.yourQuestion.placeHolder" = "궁금하신 내용을 작성하세요. (1,000글자 이내)";
+"about.feedback.detail.destination" = "여행지(선택 사항)";
+"about.feedback.detail.destination.placeHolder" = "선택하세요";
+"about.feedback.detail.submit" = "제출하기";
+"about.feedback.detail.submit.successHint" = "감사합니다! 회원님의 의견을 접수하였습니다.빠른 시일 내에 답변 드리겠습니다.";
+"about.feedback.detail.yourQuestion.exceedMaxLengthHint" = "글자 수가 초과했습니다. 1,000자 이내로 작성하세요. ";
+
+
+"account.pickAvatar" = "프로필 사진 변경하기";
+"account.photoAlbum" = "앨범에서 선택하기";
+"account.camera" = "사진 촬영";
+"account.faq" = "문의사항";
+"account.faq.question" = "이곳에 문의 내용을 작성하세요. ";
+
+"login.loginOrSignUp" = "로그인/회원가입";
+"login.subtitle" = "Yours To Explore";
+"login.email" = "이메일 주소";
+"login.password" = "비밀번호";
+"login.forgotPassword" = "비밀번호를 잊으셨나요?";
+"login.login" = "로그인";
+"login.or" = "또는";
+"login.loginViaEmail" = "이메일로 로그인/회원가입";
+"login.haveAccount" = "Klook 멤버인가요? ";
+"login.loginHere" = "여기를 클릭하고 로그인하기";
+"login.loginWithFacebook" = "Facebook으로 로그인";
+"login.loginWithWechat" = "WeChat으로 로그인";
+"login.signUpWithEmail" = "이메일로 회원가입";
+"login.signUp" = "회원가입";
+"login.alreadyHaveAnAccount" = "이미 Klook 회원이신가요?";
+"login.proceedToKlookToResetPassword" = "웹 사이트www.klook.com에서 비밀번호를 재설정하세요.";
+"login.userAgreement" = "회원 가입 시, 이용 약관에 동의한 것으로 간주됩니다.";
+"login.password.notMatchMsg" = "비밀번호는 8~20자리 이내여야 하며 영어문자와 숫자를 모두 포함해야 합니다.";
+"login.titleString" = "비밀번호를 입력하세요";
+"login.user.loginError.hint" = "로그인되지 않았습니다.";
+"login.facebook.needAuthorizeHint" = "이메일 인증 후에 로그인이 가능합니다. 다시 시도하세요. ";
+"login.facebook.retry" = "다시 시도하기";
+"login.facebook.confirm" = "확인";
+"login.facebook.loginError" = "로그인에 실패했습니다. 다시 시도하거나 오류 코드[errorcode]를 고객센터support@klook.com에 문의하시기 바랍니다.";
+
+"login.resetPassword" = "비밀번호 재설정";
+"login.resetPassword.accountLocked.title" = "계정이 비활성화되었습니다.";
+"login.resetPassword.inputEmail" = "Klook 가입 시 입력한 이메일 주소로 메일이 발송됩니다. 메일을 확인하시고, 안내에 따라 비밀번호를 재설정하세요.";
+"login.resetPassword.success" = "메일이 발송되었습니다. 안내에 따라 비밀번호를 재설정하세요.";
+"login.updateCurrency.hint" = "결제 통화가 #에서 *로 변경됩니다. *로 결제를 진행하시겠습니까?";
+
+
+"register.email" = "이메일 주소";
+"register.password" = "비밀번호";
+"register.signUp" = "회원가입";
+"register.signUpWithFacebook" = "Facebook으로 간편하게 가입하기";
+"register.signUpHint" = "Klook 회원 가입 시,       에 대해 모두 읽었으며 이에 동의한 것으로 간주됩니다.";
+"register.titleString" = "회원가입하고, 바로 Klook멤버가 되어보세요!";
+
+"order.notPaid" = "미결제";
+"order.paid" = "결제";
+"order.creditDiscount" = "포인트 사용";
+"order.couponDiscount" = "쿠폰 사용";
+"order.maskText" = "아직 예약한 액티비티가 없습니다.\nKLOOK에서 신나는 액티비티를 예약하세요.";
+"order.ticketPriceTitle" = "금액";
+"order.ticketInProcess" = "진행중";
+"order.ticketCancel" = "취소됨";
+"order.ticketFailed" = "예약 살패";
+"order.ticketConfirmed" = "확인완료";
+"order.ticketReviewComplete" = "리뷰 작성 완료";
+"order.ticketInProcessInstruction" = "예약 확정 후, 이 곳에서 해당 바우처를 확인할 수 있습니다.";
+"order.ticketCancelInstruction" = "문의 사항이 있으시면 고객센터로 연락주시기 바랍니다.";
+"order.subtotal" = "합계";
+"order.total" = "결제금액";
+"order.saved" = "총 할인금액";
+"order.orderNo" = "예약 번호：";
+"order.reviewToGainCredits" = "리뷰 작성하고 포인트 받기";
+"order.shoppingCart" = "장바구니";
+"order.bookingOptions" = "예약 사항";
+"order.bookNow" = "바로 예약";
+"order.addToCart" = "장바구니 담기";
+"order.notLoginHint" = "로그인 후 \n액티비티를 장바구니에 담을 수 있습니다.";
+"order.shopCart.emptyHint" = "장바구니에 담긴 상품이 없습니다.\nKLOOK에서 신나는 액티비티를 만나보세요!";
+"order.orderOption.selectePackage" = "패키지 선택";
+"order.orderOption.selecteDate" = "날짜선택";
+"order.orderOption.selecteCount" = "수량선택";
+"order.orderOption.pleaseSelecteDate" = "날짜를 선택하세요";
+"order.pay" = "바로 결제";
+"order.contactInformation" = "여행자 정보";
+"order.paymentOption" = "결제수단";
+"order.specialRequirements" = "요청사항";
+"order.alreadyInput" = "이미 입력했습니다. ";
+"order.pleaseInput" = "입력하세요. ";
+"order.emailConfirmInfo" = "이메일 주소가 올바르게 입력됐는지 확인하세요.예약 후, 바우처가 해당 이메일 주소로 발송됩니다.";
+"oder.AddedToCart" = "장바구니에 담았습니다.";
+"order.amount" = "금액";
+"order.getSmsCode.btn.title" = "인증코드 받기";
+"order.country.noresult" = "검색 결과가 없습니다.";
+"order.item.uint" = "개";
+"order.items.uint" = "개";
+
+
+"order.ticketReminder" = "재요청하기";
+"order.actualPayment" = "실제 결제 금액";
+
+"order.refund.appleForRefund" = "환불신청";
+"order.refund.noCancelationForThisCativity" = "해당 상품은 환불이 불가능합니다. ";
+"order.refund.beyondTheTime" = "환불 기한이 지났습니다.";
+"order.refund.chaseBooking" = "재요청하기";
+"order.refund.apply" = "확인";
+"order.refund.refundDetails" = "환불내역";
+"order.refund.processOfRefund" = "환불처리중";
+"order.refund.refundCompleted" = "환불완료";
+"order.refund.refundResult" = "환불결과";
+"order.refund.refundAmount" = "환불금액";
+"order.refund.refundCredits" = "포인트 환불 ";
+"order.refund.refundPromoCode" = "쿠폰 환불";
+"order.refund.value" = "가치";
+"order.refund.reasonOfCancelation" = "환불 신청 사유";
+"order.refund.reasonInstruction" = "추가설명（선택 사항）";
+"order.refund.specificReasons" = "환불과 관련하여 내용을 작성하세요.(500자 내외)";
+"order.refund.result.refundProcessTitle" = "환불 신청은 3~7일(영업일) 이내에 처리됩니다. 예약내역에서 환불 진행 상황을 확인하세요.";
+"order.refund.result.refundFinishTitle" = "환불 신청이 확인되었습니다.결제수단에 따라 3-7일(영업일) 이내에 고객님의 계정으로 환불될 예정입니다. ";
+"order.refund.chaseSuccess" = "예약확인 재요청";
+"order.refund.chased" = "재요청이 전송됐습니다. ";
+"order.refund.prompt" = "예약 확인 재요청이 전송되었습니다. 해당 요청은 24시간 이내에 처리될 예정이며, 주문내역과 바우처는 고객님의 이메일로 발송될 예정입니다.";
+"order.refund.pleaseSelect" = "선택하세요.";
+"order.refund.finalRefundAmount" = "실제 환불 요금";
+
+
+"order.errorHint.edite.refresh" = "해당 상품은 삭제되었습니다, 화면을 아래로 당겨 새고고침하세요.";
+"order.errorHint.pay.refresh" = "오류가 발생했습니다. 새로고침하세요.";
+"order.errorHint.back.refresh" = "오류가 발생했습니다. 새로고침하세요.";
+"order.errorHint.unit.minCountError" = "최소 구매해야하는 수량은 [min]입니다.";
+"order.errorHint.unit.maxCountError" = "최대 구매가능 수량은 [max]입니다.";
+"order.errorHint.package.minCountError" = "해당 패키지의 최소 구매 수량은 [min]입니다.";
+"order.errorHint.package.maxCountError" = "해당 패키지의 최대 구매 가능한 수량은 [max]입니다.";
+"order.errorHint.package.bottomminCountError" = "해당 패키지의 최소 구매 수량은 [min]입니다.";
+"order.paymentResult.finish" = "결제완료";
+"order.paymentResult.pending" = "확인중";
+"order.paymentResult.book" = "바료예약";
+"order.paymentResult.view" = "바로보기";
+"order.paymentResult.finish.hint.notNeedConfrim" = "Klook을 이용해주셔서 감사합니다. 회원님의 이메일[email]로 예약내역 및 바우처가 전송될 예정입니다.";
+"order.paymentResult.finish.hint.needConfrim" = "Klook를 이용해주셔서 감사합니다. 1-2일(영업일) 이내에 회원님의 이메일[email]로 예약내역 및 바우처가 전송될 예정입니다.";
+"order.paymentResult.pending.hint" = "Klook을 이용해 주셔서 감사합니다\! 안전한 전자상거래와 결제를 위하여, 예약 확정이 일시적으로 보류되었습니다. 고객님의 결제 정보에 대한 추가 인증이 진행될 예정이며, 해당 인증 절차는 24시간 이내에 처리될 예정입니다. 문의사항은 아래로 연락주세요\: 이메일 support@klook.com 또는 전화 + 852-3462-6208";
+"order.paymentResult.coupon.hint" = "쿠폰이 추가되었습니다.";
+"order.paymentResult.coupon.describle" = "[activity][discountInfo] 쿠폰이 도착했습니다.";
+
+"voucherList.checkVoucher" = "바우처 보기";
+
+"voucher.needToPrint" = "출력된 바우처만 사용이 가능합니다.";
+"voucher.showToUse" = "모바일 바우처 또는 출력된 바우처 모두 사용 가능합니다.";
+"voucher.voucherType" = "";
+"voucher.maskText" = "아직 바우처가 없습니다.\n예약 확정 후에 저장되는 바우처를\n이곳에서 바우처를 손쉽게 관리하세요.";
+"voucher.detailTitle" = "상세정보";
+"voucher.mapTitle" = "위치";
+"voucher.merchantTitle" = "현지 지원";
+"voucher.klookTitle" = "고객센터";
+"voucher.number" = "바우처 코드：";
+"voucher.startTime" = "시간：";
+"voucher.leadTraveler" = "예약자 이름：";
+"voucher.quantity" = "인원：";
+"voucher.merchantName" = "이름：";
+"voucher.tel" = "연락처：";
+"voucher.email" = "이메일：";
+"voucher.merchantLastMinuteHint" = "긴급상황 발생 또는 변동사항 관련 문의 내용 등, 해당 연락처로 연락주세요.";
+"voucher.hours" = "운영시간：";
+"voucher.downloading" = "바우처 다운로드 중";
+"voucher.convertCode" = "교환코드";
+"voucher.travellerTitle" = "여행자 정보";
+"voucher.scanQRCode" = "QR 코드";
+"voucher.logoImageName" = "text_logo";
+"voucher.passTitle" = "Wallet에 추가하기";
+"voucher.addSuccess" = "Apple Wallet에 추가 완료";
+"voucher.updateSuccess" = "업데이트 완료";
+"voucher.redeem.alertTitle" = "바우처 한 장당 한 번만 사용 가능합니다. 사용 후, 해당 바우처는 다시 사용 불가능합니다. 사용하겠습니까?";
+"voucher.redeem.title" = "스태프들의 도움을 받아서 사용하세요.";
+"voucher.redeemed" = "교환완료";
+"voucher.redeem" = "교환";
+"voucher.redeemSuccess" = "교환완료";
+
+"support.workingTimeWeekday" = "9:00am-8:30pm (평일)";
+"support.workingTimeWeekend" = "9:30am-7:00pm (주말 및 공휴일)";
+
+"wish.maskText" = "아직 위시리스트에 담긴 액티비티가 없습니다.\n마음에 드는 페이지에서 하트를 누르면\n여기에 다 모인답니다.";
+
+"setting.changeLanguage" = "언어 변경";
+"setting.changeCurrency" = "통화 변경";
+"setting.logout" = "로그아웃";
+"setting.logoutSuccess" = "완료";
+"setting.removeCache" = "Cache 삭제";
+"setting.removeCacheConfirm" = "Cache 삭제하시겠습니까?";
+"setting.currency.suggested" = "추천 통화";
+"setting.currency.other" = "다른 통화";
+"setting.currency.title" = "통화 선택";
+
+"coupon.beforePart1" = "이전";
+"coupon.beforePart2" = "전에 유효합니다.";
+"coupon.used" = "사용완료";
+"coupon.availableBalance" = "사용가능한 쿠폰：";
+"coupon.usedBalance" = "사용된 쿠폰：";
+"coupon.enter" = "사용";
+"coupon.enterCouponCode" = "쿠폰으로 교환가능,친구 초대 코드 등";
+"coupon.alert.title" = "쿠폰을 사용하세요.";
+"coupon.alert.content" = "결제시 쿠폰을 사용해서 할인받으세요.";
+"coupon.added" = "쿠폰 추가 완료";
+
+/* TODO, temple translate by Google. */
+"coupon.selected" = "선택된";
+"coupon.notuseCoupon" = "쿠폰을 사용하지 마십시오";
+
+
+"credit.balance" = "남은 포인트：[credits] （상당 금액 ：[cash]）";
+"credit.creditHint" = "* 다음 결제 부터 포인트 사용이 가능합니다";
+"credit.orderNo" = "예약 번호：";
+"credit.creditRecords" = "Klook포인트 적립 기록";
+
+"refer.inviteFriend" = "친구 초대하기";
+"refer.sendInvite" = "바로 초대하기";
+"refer.title" = " [cash]를 주고  [cash]를 받기";
+"refer.detail" = "친구에게 초대링크를 공유하고 <cash_give>상당의 Klook 포인트를 선물하세요. 친구가 Klook을 통해 첫 예약을 할 경우 회원님도 <cash_get>의 Klook 포인트를 받게 됩니다.";
+"refer.sendTitle" = "Klook과 함께 여행의 특별한 순간을 만드세요. - [cash]쿠폰을 첫 액티비티 예약 시 사용하세요! ";
+"refer.sendBody" = "잊지못할 순간을 만들고 싶다면, 다양한 액티비티를 바로예약하고, 즐길 수있는 온라인 플랫폼 Klook을 기억하세요! \ n이 초대장으로 첫 번째 예약 시 무료로 적립금 <cash>를 획득할 수 있어요. \ n 가입하려면 여기를 클릭하세요. \ : \ n <link>";
+"refer.pleaseInputReferCode" = "초대코드를 입력하세요.";
+"refer.codeHint" = " （고객님의 초대코드）";
+"refer.gain" = "획득";
+"refer.credits" = "포인트";
+"refer.shareMsgTitle" = "Klook과 함께 여행의 특별한 순간을 만드세요. - [cash]쿠폰을 첫 액티비티 예약 시 사용하세요! ";
+"refer.shareMsgBody" = "잊지못할 순간을 만들고 싶다면, 다양한 액티비티를 바로예약하고, 즐길 수있는 온라인 플랫폼 Klook을 기억하세요! \ n이 초대장으로 첫 번째 예약 시 무료로 적립금 <cash>를 획득할 수 있어요. \ n 가입하려면 여기를 클릭하세요. \ : \ n <link>";
+
+"share.wxFriend" = "WeChat";
+"share.weibo" = "시나웨이보";
+"share.mail" = "이메일";
+"share.sms" = "메세지";
+"share.wxTimeline" = "모멘트";
+"share.more" = "더";
+
+"review.title" = "액티비티 리뷰";
+"review.rateActivity" = "별점 주기";
+"review.review" = "리뷰";
+"review.placeholder" = "나의 소중했던 순간을 많은 사람들과 공유 해보는 것도 잊지 못할 추억이 될 거예요. 저희 Klook과 함께 한 여행에 대해 리뷰를 남겨주시고, 포인트도 받아가세요! (최소 20글자 입력)";
+"reivew.submitReview" = "리뷰작성";
+"review.pleaseRate" = "별점을 남겨주세요. ㅠㅠ";
+"review.pleaseEnterAtLeastXChars" = "최소 [chars]자 이상 적어주세요.";
+"review.rateText.1" = "실망했어요 ㅠㅠ";
+"review.rateText.2" = "글쎄...";
+"review.rateText.3" = "괜찮았어요!";
+"review.rateText.4" = "좋아요!!";
+"review.rateText.5" = "완전 좋아요!! ^^ ";
+"review.succeed" = "감사합니다!";
+"review.getCredits" = "포인트 [credits]가 적립됐습니다.";
+
+"guide.index.explor.imageName" = "";
+"guide.index.destination.imageName" = "";
+"guide.index.mine.imageName" = "";
+"guide.index.skip.imageName" = "";
+"guide.index.explor.footer.imageName" = "";
+"guide.index.destination.footer.imageName" = "";
+"guide.index.mine.footer.imageName" = "";
+"guide.version_1_6.appstore" = "";
+"guide.version_1_6.search" = "";
+"guide.version_1_6.wallet" = "";
+"guide.version_1_6.coupon" = "";
+
+"payment.optionTitle" = "결제수단";
+"payment.option" = "결제수단 선택";
+"payment.option2" = "결제수단";
+"payment.totalAmount" = "총 금액";
+"payment.userCredits" = "포인트 사용";
+"payment.userPromoCode" = "쿠폰 할인";
+"payment.paymentAmount" = "결제 금액";
+"payment.noCreditsAvailable" = "사용 가능한 포인트가 없습니다.";
+"payment.noPromoCodeAvailable" = "사용 가능한 쿠폰이 없습니다.";
+"payment.proceedToPay" = "결제하기";
+"payment.addNewCreditCard" = "신용 카드 추가";
+"payment.removeCreditCardTitle" = "이 카드를 삭제하겠습니까?";
+"payment.supportCard" = " Visa / Mastercard / American Express（HK$달러 한）만 사용 가능합니다.";
+"payment.redeem" = "사용";
+"payment.pay" = "결제";
+"payment.userPay" = "USD [userPay] 로 환전되어 결제가 진행되기 때문에 총 결제금액이 변경될 수 있습니다. ";
+"payment.notAvailble" = "적용되지 않음";
+"payment.enterCouponCode" = "쿠폰코드 입력하기";
+"payment.alipay" = "Alipay";
+"payment.wechatPay" = "WeChat 결제";
+"payment.travellerInfo" = "여행자 정보";
+"payment.totalSave" = "총 할인 금액";
+"payment.amount" = "금액";
+"payment.amountTitle" = "금액";
+"payment.tel" = "연락처";
+"payment.delete" = "삭제";
+"payment.faq" = "자주하는 질문";
+"payment.error.4000" = "가격이 변동되었습니다. 결제를 진행하기 전 결제금액을 확인해주세요.";
+
+
+"3dtouch.mineOrder" = "예약 내역";
+"3dtouch.mineVoucher" = "바우처";
+"3dtouch.shopingCart" = "장바구니";
+"3dtouch.search" = "검색";
+
+
+"currency.CNY" = "CNY";
+"currency.HKD" = "HKD";
+"currency.TWD" = "TWD";
+"currency.USD" = "USD";
+"currency.AUD" = "AUD";
+"currency.EUR" = "EUR";
+"currency.SGD" = "SGD";
+"currency.GBP" = "GBP";
+"currency.THB" = "THB";
+"currency.JPY" = "JPY";
+"currency.KRW" = "KRW";
+"currency.IDR" = "IDR";
+"currency.PHP" = "PHP";
+"currency.VND" = "VND";
+"currency.MYR" = "MYR";
+"currency.LAK" = "LAK";
+"currency.AED" = "AED";
+"currency.NZD" = "NZD";
+
+"sms.verified" = "인증완료";
+"sms.title" = "인증 코드 입력";
+"sms.subTitle" = "안전한 결제를 위해 핸드폰 인증이 필요합니다. \n인증번호가 +  으로 발송 되었습니다.";
+"sms.enderCode" = "인증 번호 입력";
+"sms.resendCode" = "재 발송";
+"sms.verify" = "인증";
+"sms.codeError" = "코드 에러";
+"sms.subTitleError" = "잘못된 인증 번호입니다. ";
+"sms.reTry" = "다시 시도하기";
+
+"sms.phoneNumberUsedTitle" = "이미 사용중인 번호입니다.";
+"sms.phoneNumberUsedSubTitle" = "다른 번호를 입력하거나 고객센터 \nsupport@klook.com로 문의 바랍니다.";
+"sms.doneOK" = "확인";
+
+
+"account.feedback.thanks" = "의견을 남겨주셔서 감사합니다.";
+"account.feedback.default" = "의견을 남겨주시기 바랍니다.";
+
+
+"spotlight.city.contentDescription" = "더 재미있는 [desc] 여행 발견하기";
+
+"explore2.redeem" = "바로 사용하기";
+"explore2.invite" = "바로 초대하기";
+"myOrder.login.title" = "예약 내역";
+"myOrder.login.description" = "로그인 후, 예약내역을 확인하세요.";
+"myOrder.login.button" = "로그인";
+
+
+"cart.title" = "장바구니";
+"cart.select.all" = "전체 선택";
+"cart.select.cancel" = "전체 선택 취소";
+"cart.item.edit" = "수정";
+"cart.item.remove" = "삭제";
+"cart.item.delete" = "삭제";
+"cart.item.edited" = "수정 완료";
+"cart.item.updated" = "업데이트 완료";
+"cart.delete.all" = "전체 삭제";
+"cart.add.again" = "다시 추가하기";
+"cart.item.offline" = "종료된 상품";
+"cart.item.expired" = "만료된 액티비티";
+"cart.pay" = "결제하기 ";
+"cart.total" = "합계";
+"cart.paymentSummary" = "금액";
+"cart.totla.number" = "총 [num]개";
+"cart.empty.label" = "장바구니가 비어 있네요.\n 다양한 액티비티를 둘러보고, 여행을 시작하세요.";
+"cart.delete.all.msg" = "만료된 액티비티를 삭제하겠습니까?";
+"cart.delete.item.msg" = "해당 액티비티를 삭제하겠습니까?";
+"cart.select.item.offline.msg" = "해당 액티비티는 종료되었습니다.";
+"cart.select.item.msg" = "액티비티 한 개 선택하기";
+"cart.edit.item.title" = "장바구니 정리하기";
+"cart.login.label" = "로그인 후, 장바구니에 액티비티를 담으세요.";
+"cart.guid.btn.title.gotIt" = "확인!";
+"cart.guid.label.changeContent" = "이 곳을 클릭하고, 액티비티 수정하기";
+"cart.guid.label.deleteHint" = "오른쪽으로 당겨서 해당 액티비티를 장바구니에서 삭제하기";
+
+
+"book.order.date.available" = "가능한 날짜";
+"book.order.date.unavailable" = "불가능한 날짜";
+
+"book.pay.title" = "결제";
+"book.pay.item.otherInfo" = "추가 요청 사항";
+"book.pay.item.already.input" = "추가 요청 사항";
+"book.pay.item.please.input" = "추가 내용을 작성해주세요";
+"book.pay.item.check.emali.label" = "이메일 주소가 정확한지 확인하세요.예약 완료 후 바우처가 해당 이메일로 발송됩니다.";
+"book.pay.contact.prompt" = "여행자 정보";
+"book.pay.contact.firstName" = "이름";
+"book.pay.contact.familyName" = "성";
+"book.pay.contact.title" = "Title";
+"book.pay.contact.nationality" = "국적";
+"book.pay.contact.countryCode" = "국가 코드";
+"book.pay.contact.phone" = "전화번호 (비상시)";
+"book.pay.contact.email" = "이메일 주소 (바우처 발송용)";
+"book.pay.type.title" = "결제수단";
+"book.pay.type.edit.credits" = "신용카드 내용 수정";
+"book.pay.type.add.credits" = "신용카드 내용 추가";
+"book.pay.amount.title" = "금액";
+"book.pay.amount.totalAmount.title" = "총 금액";
+"book.pay.amount.coupon.title" = "쿠폰 사용";
+"book.pay.amount.credits.title" = "포인트 사용";
+"book.pay.amount.credits" = "포인트";
+"book.pay.amount.coupon" = " [num]장 사용 가능";
+"book.pay.amount.total.title" = "총 [num]개";
+"book.pay.amount.payment" = "결제 금액";
+"book.pay.amount.saveTotal" = "총 할인 금액";
+"book.pay.amount.remark.userPay" = "고객님의 결제 금액은 [currency] [amount]\n환율에 따라 변동될 수 있습니다. ";
+"book.pay.amount.remark.credit" = " * 액티비티 체험 후, [num] 포인트 받기";
+"book.pay.amount.payButton" = "결제하기";
+"book.pay.amount.applePay.tips" = "결제 시 카드 발급 은행에서 해외결제 수수료를 부과할 수 있습니다. 자세한 내용은 해당 은행에서 확인하실 수 있습니다.";
+
+
+"book.pay.prompt.msg.choose.payType" = "결제수단 선택";
+"book.pay.prompt.msg.input.firstName" = "여권에 기재된 이름을 입력하세요. ";
+"book.pay.prompt.msg.input.familyName" = "여권에 기재된 성을 입력하세요. ";
+"book.pay.prompt.msg.input.country" = "국적을 선택하세요.";
+"book.pay.prompt.msg.input.countryRegion" = "국가 코드를 입력하세요. ";
+"book.pay.prompt.msg.input.check.countryRegion" = "잘못된 국가 코드입니다. ";
+"book.pay.prompt.msg.input.mobile" = "전화번호를 입력하세요. ";
+"book.pay.prompt.msg.input.mobile.invaliadate" = "유효하지 않은 전화번호입니다. ";
+"book.pay.prompt.msg.input.mobile.valiadate.hint" = "핸드폰 번호 인증이 필요합니다.（첫 이용 시에만 인증 필요）";
+"book.pay.prompt.msg.choose.title" = "Title를 선택하세요. ";
+"book.pay.prompt.msg.input.email" = "이메일 주소를 입력하세요. ";
+"book.pay.prompt.msg.input.check.email" = "유효하지 않은 이메일 주소입니다. ";
+"book.pay.prompt.msg.input.otherInfo" = "추가 요청 사항 또는 'NA'를 입력하세요.";
+"book.pay.prompt.msg.input.check.selected" = "계속하기 전에 이메일 주소를 인증해야 합니다.";
+
+"book.pay.country.title" = "국가";
+"book.pay.country.frequently" = "자주 선택된 국가";
+"book.pay.country.search.placeholder" = "국가/코드 검색";
+"book.pay.country.search.placeholder2" = "국가 검색";
+"book.pay.issue.common" = "자주하는 질문";
+"book.pay.other.traveler" = "여행자";
+"book.pay.credit.edit" = "신용카드 수정";
+"book.pay.credit.add" = "신용카드 추가";
+"book.pay.contact.email.hint" = "해당 이메일 주소로 바우처가 전송됩니다. 올바르게 입력됐는지 확인하세요. ";
+
+"book.pay.prompt.close" = "닫기";
+"book.pay.prompt.credit.title" = "포인트는 어떻게 사용하나요? ";
+"book.pay.prompt.credit.message" = "10 포인트 이상 적립했을 시에만 다음 결제 시부터 사용 가능합니다.";
+"book.pay.prompt.usd.title" = "왜 USD(미국 달러)로 결제되나요?";
+"book.pay.prompt.usd.message" = "KRW(한국 원화)로 구매한 Klook 상품은 결제일에 고시된 환율에 따라 최종 USD(미국 달러)로 청구됩니다. Klook은 어떠한 결제 수수료나 추가 비용을 받고 있지 않습니다. 예상치 못한 수수료가 발생한 경우에는 신용 카드를 발행한 은행에 문의하시기 바랍니다. Klook의 결제 가능 통화는 USD, HKD, SGD 및 TWD (AMEX 카드 제외)입니다.";
+"book.pay.prompt.card.title" = "신용카드 정보는 안전한가요? ";
+"book.pay.prompt.card.message" = "고객님의 카드 정보는 결제 대행 업체인 PayPal의 자회사 Braintree를 통해 안전하게 암호화되어 관리되고 있습니다. 카드 정보는 승인 성공/ 실패 여부에 상관없이 자동 으로 폐기되므로, 안전합니다. ";
+"book.pay.prepare" = "결제 진행 중, 취소를 원하면 스크린을 터치하세요. ";
+"book.pay.processing" = "결제 진행중";
+"book.pay.changePayType.title" = "선택하신 결제수단으로는 해당 쿠폰을 사용할 수 없습니다. 결제수단을 변경 하면 해당 쿠폰은 사용되지 않습니다.";
+"book.pay.changePayType.confirm" = "확인";
+"book.pay.changePayType.cancel" = "취소";
+
+"payment.cybersource.loadpage.url" = "https://www.klook.com/ko/web3/cybersource/pay";
+"payment.cybersource.cancel.title" = "결제가 진행 중입니다. 결제 상태는 ‘예약내역’에서 확인하세요. 10분 후에도 예약 상태가 표시되지 않을 경우, 다시 예약해주세요.";
+"payment.cybersource.cancel.goToBookings" = "예약 확인";
+
+"app.hint.notInstallWeChar" = "WeChat을 설치해주세요";
+"app.support.worktime" = "24시간 고객센터 운영";
+
+
+"app.support.phone0" = "400-869-4088（중국어 본토）";
+"app.support.phone1" = "(+852) 3462-6208 (홍콩)";
+"app.support.phone2" = "(+886) 2-55933778 (대만)";
+"app.support.phone3" = "(+65) 3158-3270 (싱가포르)";
+"app.support.phone4" = "(+81) 3-4530-6990 (일본)";
+"app.support.phone5" = "";
+
+
+"app.refund.rule.mdfile.name" = "refundRule_ko_kr";

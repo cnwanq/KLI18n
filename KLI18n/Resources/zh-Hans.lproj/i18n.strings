@@ -5,4 +5,796 @@
   Created by klook on 2017/4/6.
   Copyright © 2017年 klook. All rights reserved.
 */
-"hello" = "Hello1!";
+
+"today" = "今天";
+
+"global.OK" = "确认";
+"global.confirm" = "确定";
+"global.save" = "保存";
+"global.cancel" = "取消";
+"global.saveSuccess" = "保存成功";
+"global.uploading" = "上传中";
+"global.uploadSuccess" = "上传成功";
+"global.serverError" = "暂无网络信号？可在你的账户中查看离线凭证";
+"global.done" = "完成";
+"global.supportNumber" = "4008694088";
+"global.loadErrorTryLater" = "加载失败，请稍后重试";
+"global.requireLogin" = "请先登录";
+"global.success" = "成功";
+"global.back" = "返回";
+"global.terms" = "《服务条款》";
+"global.network.error" = "网络异常，请稍后重试";
+"global.network.error.tap.repeat" = "网络异常，点击屏幕重试";
+"global.network.error.checkSet" = "网络异常，请检查设置";
+"global.network.error.changeToWLAN.normal" = "已由 Wi-Fi 切换至 移动数据网络";
+"global.network.error.changeToWLAN" = "已切换至移动数据网络，确认使用流量播放视频";
+"global.error.hint" = "参考码";
+"global.update.button.title" = "立即更新";
+
+"form.countryPicker.number" = "号码";
+"form.countryPicker.code" = "区号";
+
+"link.terms" = "https://www.klook.com/conditions/";
+"link.remoteVersion" = "https://api.klook.com/ios/iVersion/versions_cn.plist";
+
+"tabbar.explore" = "探索";
+"tabbar.destination" = "目的地";
+"tabbar.search" = "搜索";
+"tabbar.mine" = "我的";
+
+/* guid */
+"guide.skip" = "跳过 ";
+"guide.start" = "开始";
+"guide.page1.titile" = "体验师精选活动";
+"guide.page1.detail" = "客路旅行体验师深入目的地，收集特色优质的\n旅行体验活动";
+"guide.page2.titile" = "轻松的预定方式";
+"guide.page2.detail" = "简捷预订流程，预订后立即出票，手机电子凭证，\n还可享受景点快速通道";
+"guide.page3.titile" = "专享优惠";
+"guide.page3.detail" = "客路携手合作伙伴，打造旅途中的专属优惠，\n更可享受低至5折的超值价格";
+
+/* explore */
+"explore.more" = "前往目的地，探索无限！";
+
+/* payment */
+
+"pay.startTime" = "开始时间";
+"pay.submitOrder" = "提交订单";
+"pay.verified" = "精选认证";
+"pay.gurantee" = "价格保证";
+"pay.book" = "下一步";
+"pay.selectDate" = "选择日期";
+"pay.bookDate" = "预订";
+"pay.soldOut" = "售罄";
+"pay.selectStartTime" = "请选择开始时间";
+"pay.pleasePickStartTime" = "请选择活动开始时间";
+"pay.exceedInventory1" = "体验火爆，仅剩";
+"pay.exceedInventory2" = "个空位";
+"pay.clickToEdit" = "返回修改";
+"pay.discountTitle" = "使用优惠";
+"pay.payOptionTitle" = "选择支付方式";
+"pay.cardContactName" = "联系人";
+"pay.cardPhone" = "电话";
+"pay.cardEmail" = "电子邮箱";
+"pay.confirmOrder" = "下一步";
+"pay.orderDetail" = "订单详情";
+"pay.specialRequirements" = "特别信息";
+"pay.travelerNo" = "出行人";
+"pay.pleaseInputAllFields" = "请填写所有信息";
+
+
+"pay.order.total" = "合计金额";
+"pay.order.saved" = "共节省";
+"pay.order.startTime" = "预订日期";
+"pay.order.quantity" = "数量";
+
+"pay.pay" = "立即支付";
+"pay.useCredits" = "使用客路积分";
+"pay.useCoupon" = "使用优惠券";
+
+"pay.credit.yourCredits" = "积分余额";
+"pay.credit.useCredits" = "使用积分";
+"pay.credit.inCash" = "可抵现金";
+"pay.credit.submit" = "使用积分";
+"pay.credit.notApplicable" = "需要至少100积分才能使用";
+"pay.credit.useFail" = "使用积分失败，请稍后重试";
+"pay.credit.select" = "请选择积分";
+
+"pay.coupon.useCouponsAlert" = "请输入优惠券";
+"pay.coupon.extraSavings" = "可抵现金";
+"pay.coupon.useCoupons" = "使用优惠券";
+"pay.coupon.useFail" = "使用优惠券失败，请稍后重试";
+"pay.coupon.submit" = "使用优惠券";
+"pay.coupon.select" = "使用优惠券";
+"pay.coupon.success" = "使用成功";
+"pay.coupon.nouse.hint" = "不使用优惠券";
+
+"pay.payment.failPleaseRetry" = "支付失败，请重新支付";
+"pay.payment.failOrCheckOrder.title1" = "网络连接失败，请重试或在“我的订单”查看订单状态";
+"pay.payment.failOrCheckOrder.title2" = "网络连接失败，支付未完成，请重试";
+"pay.payment.failOrCheckOrder.retry" = "重试";
+"pay.payment.failOrCheckOrder.cancel" = "取消";
+"pay.payment.failOrCheckOrder.viewBooking" = "查看订单";
+"pay.payment.failPleaseCheckLater" = "支付请求正在处理中，请稍后前往“我的订单”查看";
+"pay.payment.klook" = "客路旅行";
+"pay.payment.payWithAlipay" = "使用支付宝";
+"pay.payment.payWithPaypal" = "使用PayPal";
+"pay.payment.useCreditCard" = "使用信用卡";
+"pay.payment.amount" = "付款金额";
+"pay.payment.saved" = "总共节省 ";
+"pay.payment.transactionWillBeMadeIn" = "您的付款金额为 ";
+"pay.payment.pleaseSelectGateway" = "请选择支付方式";
+"pay.payment.totalCredits" = "可用积分：";
+"pay.payment.noCoupon" = "无可用优惠券";
+"pay.payment.noCouponHint" = "已有优惠码？请在“我的客路”中输入后兑换优惠券";
+"pay.payment.applePay.cancel.hint" = "您的付款已提交，未必能够取消。如果付款处理完成，您的订单将会出现在“我的订单”中，请稍后查看";
+
+"pay.status.amountPaid" = "成功支付";
+"pay.status.checkOrderStatus" = "查看订单";
+"pay.status.paymentSuccess" = "支付成功";
+"pay.status.paymentResult" = "支付结果";
+"pay.status.keepLooking" = "继续探索";
+"pay.alipay.status.fail" = "支付失败";
+
+"pay.quit.hint.title" = "放弃支付?";
+"pay.quit.hint.message" = "放弃支付将会丢失所填信息";
+"pay.quit.hint.abandon" = "放弃";
+"pay.quit.hint.cancel" = "取消";
+
+"pay.otherInfo.quit.hint.title" = "确定退出修改信息？";
+"pay.otherInfo.quit.hint.message" = "您已修改了出行信息，现在退出将无法保存修改";
+"pay.otherInfo.quit.hint.cancel" = "取消";
+"pay.otherInfo.quit.hint.abandon" = "退出";
+"pay.otherInfo.row.optional" = "选填";
+
+"pay.3DS.cancle.hint.title" = "您已取消本次交易";
+"pay.3DS.cancle.hint.confirm" = "知道了";
+"pay.3DS.invalid.hint.title" = "发生网络异常，交易已取消，请稍后重试";
+"pay.3DS.invalid.hint.confirm" = "知道了";
+
+"creditCard.loadingSavedCards" = "正在加载已保存的信用卡";
+"creditCard.useCreditCard" = "使用信用卡付款";
+"creditCard.selectCardOrUseNewCard" = "请选择或添加信用卡";
+"creditCard.new" = "使用新的信用卡";
+"creditCard.saveHint" = "保存信用卡信息";
+"creditCard.inputValidCardInfo" = "请输入有效的信用卡信息";
+"creditCard.scanCreditCard" = "扫描您的信用卡";
+"creditCard.supportTypes" = "支持信用卡种类";
+"creditCard.notSupporType" = "暂不支持此类信用卡";
+
+"infoForm.travelerInfoTitle" = "出行人基本信息";
+"infoForm.selectTitle" = "选择称谓";
+"infoForm.title" = "称谓";
+"infoForm.title.mr" = "先生";
+"infoForm.title.mrs" = "女士";
+"infoForm.title.miss" = "女士";
+"infoForm.firstName" = "名字";
+"infoForm.familyName" = "姓氏";
+"infoForm.email" = "电子邮件";
+"infoForm.phoneNumber" = "电话号码";
+"infoForm.country" = "国家代码";
+"infoForm.countryPlaceholder" = "输入或选择";
+"infoForm.includeCountryCode" = "包括国家区号";
+"infoForm.englishPassportFirstName" = "护照名（拼音填写）";
+"infoForm.englishPassportLastName" = "护照姓（拼音填写）";
+"infoForm.emailPlaceholder" = "name@example.com";
+"infoForm.countryInvalidCode" = "国家代码无效";
+"infoForm.countryInvalidInfo" = "请输入正确的国家代码";
+
+"dest.title" = "目的地";
+"dest.welcomeTo" = "欢迎来到";
+"dest.activities" = "个精彩活动";
+"dest.all" = "全部";
+"dest.popular" = "热门";
+"dest.moreBtnTitle" = "探索更多目的地";
+"dest.moreDestinationHint" = "更多目的地敬请期待";
+
+/* city */
+
+"city.readMore" = "阅读更多";
+"city.categoriesTitle"  = "活动类别";
+"city.popularActivitiesTitle"  = "特选活动";
+"city.picked.popular" = "热门活动";
+"city.picked.unique" = "个性玩法";
+"city.picked.7days" = "本周玩什么";
+"city.picked.deals" = "特卖";
+"city.picked.all" = "所有活动";
+"city.allActivities" = "浏览所有活动";
+
+"activityList.calendar" = "按日期筛选";
+"activityList.cancel" = "隐藏";
+"activityList.allActivityNavTitle" = "所有活动";
+"activityList.allActivityBtnTitle" = "查看所有活动";
+"activityList.klookRecommend" = "客路推荐";
+"activityList.bestSellers" = "最受欢迎";
+"activityList.mostReview" = "最多评价";
+"activityList.priceLowToHigh" = "价格从低到高";
+"activityList.topNewActivities" = "最新活动";
+
+/* activity */
+
+"activity.instant" = "极速";
+"activity.instantNotice" = "现在预订可立即获取电子凭证";
+"activity.recommend" = "体验师推荐语";
+"activity.readMore" = "阅读更多";
+"activity.maskText" = "今日没有你想玩的活动？\n试试探索其他日期吧！";
+
+"activity.Package" = "套餐";
+"activity.highlights" = "活动亮点";
+"activity.packageDetails" = "活动详情";
+"activity.terms" = "如何使用";
+"activity.cancelation" = "退改须知";
+"activity.booked" = "人参加过";
+"activity.book" = "立即预订";
+"activity.selectPackage" = "选择套餐&预订";
+"activity.reviewTitle" = "活动评价";
+"activity.reviews" = "个评价";
+"activity.share" = "分享活动";
+"activity.newOnLine" = "新上线活动";
+"activity.soldOut" = "已售罄";
+"activity.soldOutHint" = "已售罄，点击返回";
+"activity.booking.todayAvailable" = "今日可订";
+"activity.booking.tomorrowAvailable" = "明日可订";
+"activity.earliestbookingDate" = "最早可预订日期：";
+"activity.currentlyUnavaliable" = "暂无可预订时间";
+"activity.share.success" = "分享成功";
+"activity.share.failed" = "分享失败";
+
+
+"activity.book.maxnum" = "最多购买数量为[max]";
+"activity.book.minnum" = "最少购买数量为[min]";
+"activity.book.num.last" = "";
+"activity.play.hint.noWifi" = "当前使用的是移动数据网络，确认使用流量播放视频？";
+"activity.play.confirm" = "确定";
+
+"activity.show.tip.home" = "回到主页";
+"activity.show.tip.default.language" = "切换语言";
+
+
+"notifyItem.duration" = "时长";
+"notifyItem.language" = "语言";
+"notifyItem.refund" = "退订";
+"notifyItem.travelers" = "人数";
+"notifyItem.location" = "地点";
+"notifyItem.transport" = "交通";
+"notifyItem.confirmation" = "确认";
+
+/* search */
+
+"search.placeHolder" = "搜索亚洲城市、活动";
+"search.placeHolderByCity" = "搜索活动";
+"search.history" = "搜索历史";
+"search.title.allCities" = "所有城市";
+"search.title.results" = "结果：";
+"search.cleanHistory" = "清除";
+"search.noResults" = "Oops，暂时没有你想搜索的结果哟";
+"search.pleaseInputText" = "请输入关键词";
+"search.trendingSearches" = "热门搜索";
+"search.noneResults" = "暂无相关搜索结果哦";
+"search.moreBtnTitle" = "探索更多目的地";
+"search.city.prompt" = "在搜索栏探索你想玩的活动";
+"search.destination.placeholder" = "搜索目的地";
+"search.destination.noResult" = "暂未发现目的地";
+
+
+/* mine */
+
+"validate.pleaseInputEmailAndPassword" = "请输入用户名和密码";
+"register.successMsg" = "感谢您的注册！我们将发送一封激活邮件到您用于注册klook的邮箱，请按提示步骤激活您的账号！";
+
+"mine.title" = "我的账户";
+"mine.loginHint" = "还没有登录，";
+"mine.login" = "现在登录，旅行从这里开始";
+"mine.credits" = "积分";
+"mine.coupons" = "优惠券";
+"mine.editAccount" = "编辑账号";
+"mine.menu.voucher" = "使用凭证";
+"mine.menu.order" = "我的订单";
+"mine.menu.order.unreadOrders" = "个已支付订单";
+"mine.menu.favorite" = "愿望清单";
+"mine.menu.promo" = "优惠/兑换";
+"mine.menu.credit" = "积分";
+"mine.menu.coupon" = "优惠券";
+"mine.menu.review" = "评活动，赚积分";
+"mine.menu.refer" = "邀请";
+"mine.menu.refer.subtitle" = "邀请好友享更多优惠";
+"mine.menu.setting" = "更改语言/货币";
+"mine.menu.help" = "帮助";
+"mine.menu.about" = "关于";
+"mine.menu.contact" = "联系我们";
+"mine.logout" = "退出登录";
+"mine.order.dateBooked" = "购买时间：";
+"mine.email.invalid" = "请输入有效邮箱地址";
+
+"about.klookKeepLooking" = "客路旅行，探索未知的你！";
+"about.contactKlook" = "联系我们";
+"about.mail" = "邮件 support@klook.com";
+"about.phone" = "旅行顾问/热线";
+"about.followKlook" = "关注客路";
+"about.rate" = "在 App Store 上给我们评分";
+"about.web" = "访问 Klook.com";
+"about.service" = "使用条款";
+"about.taiwanPhoneNumberDesc" = "(+886) 2-55933778（台湾）";
+"about.hongkongPhoneNumberDesc" = "(+852) 3462-6208（香港）";
+"about.chinaPhoneNumberDesc" = "400-869-4088（境内）";
+"about.chinaOutsidePhoneNumberDesc" = "(+86) 755-82552354（境外）";
+"about.klookURL" = "https://www.klook.com/zh-CN/";
+"about.conditionsURL" = "https://www.klook.com/zh-CN/conditions/";
+"about.version" = "版本";
+"about.feedback" = "意见反馈";
+"about.feedback.name" = "姓名";
+"about.feedback.nameTF.placheholder" = "请输入您的姓名";
+"about.feedback.email" = "邮箱";
+"about.feedback.emailTF.placheholder" = "请输入您的邮箱地址";
+"about.feedback.faq.title" = "您的问题";
+"about.feedback.faq.placheholder" = "请输入您的问题";
+"about.feedback.feedback.title" = "意见反馈";
+"about.feedback.feedback.placheholder" = "请输入意见反馈";
+"about.feedback.sendBtn" = "提交";
+"about.feedback.emailInvalidHint" = "请正确填写邮箱地址";
+"about.kakaoklookURL" = "https://plus.kakao.com/home/@klook";
+
+"about.feedback.appFeedback" = "App使用中的问题反馈";
+"about.feedback.questionCategory" = "问题类型";
+"about.feedback.selectOrder" = "选择活动";
+"about.feedback.selectDestination" = "选择出行目的地";
+"about.feedback.askKlook" = "咨询客路";
+"about.feedback.detail.name" = "姓名";
+"about.feedback.detail.name.placeHolder" = "请填写";
+"about.feedback.detail.email" = "邮件地址";
+"about.feedback.detail.email.placeHolder" = "请填写";
+"about.feedback.detail.yourQuestion" = "问题描述";
+"about.feedback.detail.yourQuestion.placeHolder" = "请具体填写您的问题（1000字以内）";
+"about.feedback.detail.destination" = "出行目的地(选填)";
+"about.feedback.detail.destination.placeHolder" = "请选择";
+"about.feedback.detail.submit" = "提交";
+"about.feedback.detail.submit.successHint" = "我们已收到您的问题反馈，将尽快处理后与您联系";
+"about.feedback.detail.yourQuestion.exceedMaxLengthHint" = "最多可输入1000字，您已超出字数";
+
+
+"account.pickAvatar" = "更换头像";
+"account.photoAlbum" = "从相册选择";
+"account.camera" = "拍照";
+"account.faq" = "其它问题反馈";
+"account.faq.question" = "请输入你的问题";
+
+"login.loginOrSignUp" = "登录/注册";
+"login.subtitle" = "你的旅行从这里开始";
+"login.email" = "邮箱";
+"login.password" = "密码";
+"login.forgotPassword" = "忘记密码?";
+"login.login" = "登录";
+"login.or" = "或者";
+"login.loginViaEmail" = "或用邮箱登录/注册";
+"login.haveAccount" = "已经有账号了？";
+"login.loginHere" = "点这里登录";
+"login.loginWithFacebook" = "使用Facebook登录";
+"login.loginWithWechat" = "使用微信登录";
+"login.signUpWithEmail" = "使用邮箱注册";
+"login.signUp" = "注册";
+"login.alreadyHaveAnAccount" = "已经加入我们？请登录";
+"login.proceedToKlookToResetPassword" = "请在电脑浏览器上前往www.klook.com重置密码";
+"login.userAgreement" = "注册表示您已经阅读并同意客路的《使用条款》";
+"login.password.notMatchMsg" = "密码须为 8-20 位，至少包含一个字母和数字";
+"login.titleString" = "请输入登录密码";
+"login.user.loginError.hint" = "用户未登录";
+"login.facebook.needAuthorizeHint" = "需要邮箱授权才能登录，点击重试";
+"login.facebook.retry" = "重试";
+"login.facebook.confirm" = "确认";
+"login.facebook.loginError" = "登录失败，请尝试重新登录，或记住错误码[errorcode]与我们的客服联系support@klook.com";
+"login.resetPassword" = "重置密码";
+"login.resetPassword.accountLocked.title" = "账户被锁定";
+"login.resetPassword.inputEmail" = "请输入您注册客路时的email地址，我们会发送一封邮件到您的邮箱，请按提示步骤操作。";
+"login.resetPassword.success" = "系统会向您的邮箱发送一封邮件，请按邮件中的提示步骤操作！";
+"login.updateCurrency.hint" = "您的支付货币将从#切换到*，是否确定切换？";
+
+"register.email" = "邮箱";
+"register.password" = "密码";
+"register.signUp" = "注册";
+"register.signUpWithFacebook" = " 使用Facebook注册";
+"register.signUpHint" = "注册即表示您已阅读并同意客路的";
+"register.titleString" = "新用户注册账户";
+
+"setting.changeLanguage" = "更改语言";
+"setting.changeCurrency" = "更改货币";
+"setting.logout" = "退出登录";
+"setting.logoutSuccess" = "退出成功";
+"setting.removeCache" = "清除应用程序缓存";
+"setting.removeCacheConfirm" = "确定清除应用程序缓存？";
+"setting.currency.suggested" = "推荐使用货币";
+"setting.currency.other" = "其他货币";
+"setting.currency.title" = "更换货币";
+
+// order
+"order.notPaid" = "未付款";
+"order.paid" = "已付款";
+"order.creditDiscount" = "客路积分";
+"order.couponDiscount" = "优惠券";
+"order.subtotal" = "总计";
+"order.total" = "支付金额";
+"order.saved" = "共节省";
+"order.ticketPriceTitle" = "金额";
+"order.ticketInProcess" = "确认中";
+"order.ticketCancel" = "已取消";
+"order.ticketFailed" = "订单已失败";
+"order.ticketConfirmed" = "已确认";
+"order.ticketReviewComplete" = "已评价";
+"order.ticketInProcessInstruction" = "预订成功确认后，你将可查看活动使用凭证";
+"order.ticketCancelInstruction" = "如有疑问，请与我们的客服联系";
+"order.maskText" = "探索无限，你只差一个预订的步骤";
+"order.orderNo" = "订单号：";
+"order.reviewToGainCredits" = "写评价拿积分";
+"order.shoppingCart" = "购物车";
+"order.bookingOptions" = "预订选项";
+"order.bookNow" = "立即预订";
+"order.addToCart" = "加入购物车";
+"order.notLoginHint" = "登录后，即可添加\n多个旅行活动至购物车";
+"order.shopCart.emptyHint" = "购物车还是空的，\n去挑几个活动开始探索世界的旅程吧";
+"order.orderOption.selectePackage" = "选择套餐";
+"order.orderOption.selecteDate" = "选择日期";
+"order.orderOption.selecteCount" = "选择数量";
+"order.orderOption.pleaseSelecteDate" = "请选择日期";
+"order.pay" = "支付";
+"order.contactInformation" = "预订联系人信息";
+"order.paymentOption" = "支付方式";
+"order.specialRequirements" = "出行信息";
+"order.alreadyInput" = "已填写";
+"order.pleaseInput" = "请填写";
+"order.emailConfirmInfo" = "请检查确认邮箱地址无误，预订成功后，使用凭证将发送至此邮箱";
+"oder.AddedToCart" = "已加入购物车";
+"order.amount" = "金额";
+"order.getSmsCode.btn.title" = "获取验证码";
+"order.country.noresult" = "未找到结果";
+"order.item.uint" = "件";
+"order.items.uint" = "件";
+
+
+"order.ticketReminder" = "催单";
+"order.actualPayment" = "实际支付";
+
+"order.refund.appleForRefund" = "申请退款";
+"order.refund.noCancelationForThisCativity" = "此活动不支持退款";
+"order.refund.beyondTheTime" = "已超过可退款时间范围";
+"order.refund.chaseBooking" = "催单";
+"order.refund.apply" = "确定";
+"order.refund.refundDetails" = "退款详情";
+"order.refund.processOfRefund" = "退款中";
+"order.refund.refundCompleted" = "已退款";
+"order.refund.refundResult" = "退款结果";
+"order.refund.refundAmount" = "退款金额";
+"order.refund.refundCredits" = "退还积分";
+"order.refund.refundPromoCode" = "退还优惠券";
+"order.refund.value" = "价值";
+"order.refund.reasonOfCancelation" = "退款原因";
+"order.refund.reasonInstruction" = "备注说明（选填）";
+"order.refund.specificReasons" = "请填写其他原因具体说明（500字内）";
+"order.refund.result.refundProcessTitle" = "我们将在3-7个工作日内处理您的退款申请，可在“我的订单”中查看退款处理进程";
+"order.refund.result.refundFinishTitle" = "已通过您的退款申请，根据不同的支付方式，款项将在3-7个工作日内退还到您的账户";
+"order.refund.chaseSuccess" = "催单成功";
+"order.refund.chased" = "已催单";
+"order.refund.prompt" = "已收到您的催单提醒，订单将加速在24小时内处理完毕，并发送订单详情及使用凭证至您的邮箱";
+"order.refund.pleaseSelect" = "请选择";
+"order.refund.finalRefundAmount" = "实际退款";
+
+
+"order.errorHint.edite.refresh" = "该活动已被删除，请下拉刷新页面";
+"order.errorHint.pay.refresh" = "对不起，操作失败，请刷新重试";
+"order.errorHint.back.refresh" = "对不起，操作失败，请返回重试";
+"order.errorHint.unit.minCountError" = "最少能购买的数量为[min]";
+"order.errorHint.unit.maxCountError" = "最多须购买的数量为[max]";
+"order.errorHint.package.minCountError" = "该套餐最少须购买的数量为[min]";
+"order.errorHint.package.maxCountError" = "该套餐最多能购买的数量为[max]";
+"order.errorHint.package.bottomminCountError" = "该套餐最少须购买的数量为[min]";
+"order.paymentResult.finish" = "支付完成";
+"order.paymentResult.pending" = "待确认";
+"order.paymentResult.book" = "立即预订";
+"order.paymentResult.view" = "立即查看";
+"order.paymentResult.finish.hint.notNeedConfrim" = "感谢使用客路，预订信息与使用凭证将发送至您的邮箱[email]";
+"order.paymentResult.finish.hint.needConfrim" = "感谢使用客路，预订信息与使用凭证将在1-2个工作日内发送至您的邮箱[email]";
+"order.paymentResult.pending.hint" = "感谢使用Klook客路！您的订单尚未被确认，第三方安全支付系统需对提供的信息进一步认证。为了保障您的支付安全，我们将在24小时内联络并确认订单详情。带来的不便，敬请见谅。如有紧急需要，请及时与我们取得联系：可发送邮件至support@klook.com，或拨打客服电话400-869-4088";
+"order.paymentResult.coupon.hint" = "优惠券已同时发送至您的邮箱。";
+"order.paymentResult.coupon.describle" = "恭喜您获得 [num]张 [campaignTitle] 优惠券！";
+"order.paymentResult.coupons.hint" = "优惠券已同时发送至您的邮箱。";
+"order.paymentResult.coupons.describle" = "恭喜您获得 [num]张 [campaignTitle] 优惠券！";
+
+"voucher.needToPrint" = "需打印并出示纸质的使用凭证";
+"voucher.showToUse" = "可直接在手机上出示电子版使用凭证";
+"voucher.voucherType" = "";
+"voucher.maskText" = "带着凭证旅行，\n即使是离线状态，凭证也会在这里等你";
+
+"voucherList.checkVoucher" = "查看凭证";
+"voucher.detailTitle" = "使用详情";
+"voucher.mapTitle" = "活动地点";
+"voucher.merchantTitle" = "当地服务商";
+"voucher.klookTitle" = "联系客路";
+"voucher.number" = "凭证号：";
+"voucher.startTime" = "时间：";
+"voucher.leadTraveler" = "预订人姓名：";
+"voucher.quantity" = "人数：";
+"voucher.merchantName" = "名称：";
+"voucher.tel" = "电话：";
+"voucher.email" = "电子邮件：";
+"voucher.merchantLastMinuteHint" = "如您遇到任何紧急情况或是有所疑问，可联系以上信息，客路的合作伙伴将提供线下的服务与支援。";
+"voucher.hours" = "专线时间：";
+"voucher.downloading" = "正在下载凭证";
+"voucher.convertCode" = "兑换码";
+"voucher.travellerTitle" = "旅客详情";
+"voucher.scanQRCode" = "二维码";
+"voucher.logoImageName" = "logo_klook";
+"voucher.passTitle" = "添加到 Wallet";
+"voucher.addSuccess" = "添加成功";
+"voucher.updateSuccess" = "更新成功";
+"voucher.redeem.alertTitle" = "每张使用凭证只能兑换一次。完成兑换后，此凭证将会失效，确认立即兑换？";
+"voucher.redeem.title" = "请在工作人员帮助下使用";
+"voucher.redeemed" = "已兑换";
+"voucher.redeem" = "兑换";
+"voucher.redeemSuccess" = "兑换成功";
+
+"support.workingTimeWeekday" = " (工作日)";
+"support.workingTimeWeekend" = " (双休日及公众节假日)";
+
+
+"wish.maskText" = "这里装载着你闯世界的愿望清单";
+
+"coupon.beforePart1" = "";
+"coupon.beforePart2" = "前有效";
+"coupon.used" = " 已使用";
+"coupon.availableBalance" = "可用优惠券：";
+"coupon.usedBalance" = "已用优惠券：";
+"coupon.enter" = "兑换";
+"coupon.enterCouponCode" = "可兌換優惠券，朋友邀請碼等";
+"coupon.alert.title" = "这里不能点哟";
+"coupon.alert.content" = "支付时选择优惠劵即可";
+"coupon.added" = "兑换成功";
+"coupon.notuseCoupon" = "不使用优惠券";
+"coupon.selected" = "已选中";
+"coupon.hasExpired" = "已过期";
+
+"credit.balance" = "积分余额：[credits] （可抵现金：[cash]）";
+"credit.creditHint" = "* 您可在下次付款时使用积分";
+"credit.orderNo" = "订单号：";
+"credit.creditRecords" = "客路积分历史";
+
+"refer.inviteFriend" = "邀请朋友";
+"refer.sendInvite" = "马上邀请";
+"refer.title" = "送出 [cash]，获得 [cash]";
+"refer.detail" = "通过您的邀请链接注册的朋友，他们将获得 [cash] 的优惠； 您的朋友参加完任何的活动后，您也将获得 [cash] 的优惠！";
+"refer.sendTitle" = "探索新奇旅行体验，现在加入更可获得 [cash]!";
+"refer.sendBody" = "分享一个新大陆 - 客路，一个旅行目的地特色体验活动的探索与预订平台。 通过以下链接的特邀加入，可获得25元港币并享受各种优惠，让旅途从此不同。[refer_link]";
+"refer.pleaseInputReferCode" = "请输入邀请码";
+"refer.codeHint" = "（你的邀请码）";
+"refer.gain" = "获得";
+"refer.credits" = "积分";
+"refer.shareMsgTitle" = "探索新奇旅行体验，现在加入更可获得 [cash]!";
+"refer.shareMsgBody" = "分享一个新大陆 - 客路，一个旅行目的地特色体验活动的探索与预订平台。\n通过以下链接的特邀加入，可获得 [cash] 并享受各种优惠，让旅途从此不同。\n\n[refer_link]";
+
+"share.wxFriend" = "微信好友";
+"share.weibo" = "新浪微博";
+"share.mail" = "邮件";
+"share.sms" = "短信";
+"share.wxTimeline" = "朋友圈";
+"share.more" = "更多";
+
+"review.title" = "活动评价";
+"review.rateActivity" = "满意度评分";
+"review.review" = "评价";
+"review.placeholder" = "你的活动评价，对我们很重要。快来完成评价，立享[credits]积分奖励吧！（至少输入20字）";
+"reivew.submitReview" = "发表评价";
+"review.pleaseRate" = "请给活动评星哟";
+"review.pleaseEnterAtLeastXChars" = "请至少输入[chars]字";
+"review.rateText.1" = "失望";
+"review.rateText.2" = "很一般";
+"review.rateText.3" = "还不错";
+"review.rateText.4" = "满意";
+"review.rateText.5" = "惊喜";
+"review.succeed" = "感谢你的评价！";
+"review.getCredits" = "获得[credits]积分";
+
+
+"guide.index.explor.imageName" = "exp_sim";
+"guide.index.destination.imageName" = "des_sim";
+"guide.index.mine.imageName" = "mine_sim";
+"guide.index.skip.imageName" = "skip_sim";
+"guide.index.explor.footer.imageName" = "exp_tab_sim";
+"guide.index.destination.footer.imageName" = "des_tab_sim";
+"guide.index.mine.footer.imageName" = "mine_tab_sim";
+
+"guide.version_1_6.appstore" = "APPSTORE(cn)";
+"guide.version_1_6.search" = "SEARCH(cn)";
+"guide.version_1_6.wallet" = "WALLET(cn)";
+"guide.version_1_6.coupon" = "COUPON(cn)";
+
+"payment.optionTitle" = "选择支付方式";
+"payment.option" = "选择支付方式";
+"payment.option2" = "支付方式";
+"payment.totalAmount" = "总金额";
+"payment.userCredits" = "使用积分";
+"payment.userPromoCode" = "使用优惠券";
+"payment.paymentAmount" = "支付金额";
+"payment.noCreditsAvailable" = "无积分可用";
+"payment.noPromoCodeAvailable" = "无优惠券可用";
+"payment.proceedToPay" = "去支付";
+"payment.addNewCreditCard" = "添加信用卡";
+"payment.removeCreditCardTitle" = "确定删除此张信用卡？";
+"payment.supportCard" = "我们支持 American Express（仅 HK$）/ Visa / Mastercard 卡种";
+"payment.redeem" = "兑换";
+"payment.pay" = "支付";
+"payment.userPay" = "将以美元价格 [userPay] 结算\n发卡行或将收取手续费";
+"payment.notAvailble" = "不适用";
+"payment.enterCouponCode" = "可兑换优惠券,朋友邀请码等";
+"payment.alipay" = "支付宝";
+"payment.wechatPay" = "微信支付";
+"payment.travellerInfo" = "出行人信息";
+"payment.totalSave" = "为您节省";
+"payment.amount" = "金额";
+"payment.amountTitle" = "金额";
+"payment.tel" = "电话";
+"payment.delete" = "删除";
+"payment.faq" = "常见问题";
+"payment.error.4000" = "您选择的活动价格有变化，我们已为您重新计算，请在支付前确认最新金额。";
+
+"3dtouch.mineOrder" = "我的订单";
+"3dtouch.mineVoucher" = "使用凭证";
+"3dtouch.shopingCart" = "购物车";
+"3dtouch.search" = "搜索";
+
+"currency.CNY" = "人民币";
+"currency.HKD" = "港币";
+"currency.TWD" = "台币";
+"currency.USD" = "美元";
+"currency.AUD" = "澳元";
+"currency.EUR" = "欧元";
+"currency.SGD" = "新币";
+"currency.GBP" = "英镑";
+"currency.THB" = "泰铢";
+"currency.JPY" = "日元";
+"currency.KRW" = "韩元";
+"currency.IDR" = "印尼盾";
+"currency.PHP" = "菲律宾比索";
+"currency.VND" = "越南盾";
+"currency.MYR" = "林吉特";
+"currency.LAK" = "老挝基普";
+"currency.AED" = "阿联酋迪拉姆";
+"currency.NZD" = "新西兰元";
+
+"sms.verified" = "已验证";
+"sms.title" = "输入短信验证码";
+"sms.subTitle" = "为了您的支付安全，需验证手机号码\n验证码已发送至 [tel]\n（仅首次验证）";
+"sms.enderCode" = "输入验证码";
+"sms.resendCode" = "重新发送";
+"sms.verify" = "验证";
+"sms.codeError" = "验证码错误";
+"sms.subTitleError" = "我们未能辨认您输入的验证码";
+"sms.reTry" = "重试";
+
+"sms.phoneNumberUsedTitle" = "该手机号码已被使用";
+"sms.phoneNumberUsedSubTitle" = "请填写新号码，或联系客服\nsupport@klook.com";
+"sms.doneOK" = "我知道了";
+
+"account.feedback.thanks" = "客路感谢您的反馈";
+"account.feedback.default" = "请输入意见反馈";
+
+
+"spotlight.city.contentDescription" = "发现更好玩的[desc]旅行体验";
+
+"explore2.redeem" = "立即兑换";
+"explore2.invite" = "立即邀请";
+"myOrder.login.title" = "我的订单";
+"myOrder.login.description" = "登录后，可以查看订单和离线使用凭证";
+"myOrder.login.button" = "登录";
+
+
+"cart.title" = "购物车";
+"cart.select.all" = "全选";
+"cart.select.cancel" = "取消全选";
+"cart.item.edit" = "编辑";
+"cart.item.remove" = "删除";
+"cart.item.delete" = "  删除  ";
+"cart.item.edited" = "已编辑";
+"cart.item.updated" = "已更新";
+"cart.delete.all" = "清空";
+"cart.add.again" = "重新加入";
+"cart.item.offline" = "该活动已下线";
+"cart.item.expired" = "以下活动需重新确认";
+"cart.pay" = "结算";
+"cart.total" = "合计";
+"cart.paymentSummary" = "金额";
+"cart.totla.number" = "[num]件总计";
+"cart.empty.label" = "购物车还是空的，去挑几个活动开始探索世界的旅程吧";
+"cart.delete.all.msg" = "是否清空失效活动";
+"cart.delete.item.msg" = "是否删除活动";
+"cart.select.item.offline.msg" = "该活动已下线";
+"cart.select.item.msg" = "请选择活动";
+"cart.edit.item.title" = "编辑购物车";
+"cart.login.label" = "登录后，即可添加多个旅行活动至购物车";
+"cart.guid.btn.title.gotIt" = "我知道了";
+"cart.guid.label.changeContent" = "点击更改活动内容";
+"cart.guid.label.deleteHint" = "左滑可删除购物车中的活动";
+
+
+"book.order.date.available" = "可选日期";
+"book.order.date.unavailable" = "不可选日期";
+
+"book.pay.title" = "支付";
+"book.pay.item.otherInfo" = "附加信息";
+"book.pay.item.already.input" = "附加信息";
+"book.pay.item.please.input" = "填写附加信息";
+"book.pay.item.check.emali.label" = "请检查确认邮箱地址无误，预订成功后，使用凭证将发送至此邮箱";
+"book.pay.contact.prompt" = "预订联系人信息";
+"book.pay.contact.firstName" = "护照名（拼音填写）";
+"book.pay.contact.familyName" = "护照姓（拼音填写）";
+"book.pay.contact.title" = "称谓";
+"book.pay.contact.nationality" = "护照信息";
+"book.pay.contact.countryCode" = "国家/地区/代码";
+"book.pay.contact.phone" = "电话号码（以便在紧急情况下即时联络）";
+"book.pay.contact.email" = "邮箱（接收凭证）";
+"book.pay.type.title" = "支付方式";
+"book.pay.type.edit.credits" = "管理信用卡";
+"book.pay.type.add.credits" = "添加信用卡";
+"book.pay.amount.title" = "金额";
+"book.pay.amount.totalAmount.title" = "总金额";
+"book.pay.amount.coupon.title" = "优惠券";
+"book.pay.amount.credits.title" = "客路积分";
+"book.pay.amount.credits" = "积分";
+"book.pay.amount.coupon" = "[num]张可用";
+"book.pay.amount.total.title" = "[num]件总计";
+"book.pay.amount.payment" = "支付金额";
+"book.pay.amount.saveTotal" = "为您节省";
+"book.pay.amount.remark.userPay" = "您的付款金额为 [amount] [currency]\n价格会根据汇率的变化而有浮动";
+"book.pay.amount.remark.credit" = "* 完成活动将获得 [num] 积分";
+"book.pay.amount.payButton" = "支付";
+"book.pay.amount.applePay.tips" = "您的发卡银行可能会收取跨境交易手续费，详情请向银行查询。";
+
+
+"book.pay.prompt.msg.choose.payType" = "请选择支付方式";
+"book.pay.prompt.msg.input.firstName" = "请填写护照名";
+"book.pay.prompt.msg.input.familyName" = "请填写护照姓";
+"book.pay.prompt.msg.input.country" = "请选择国籍";
+"book.pay.prompt.msg.input.countryRegion" = "请填写国家区号";
+"book.pay.prompt.msg.input.check.countryRegion" = "请正确填写国家区号";
+"book.pay.prompt.msg.input.mobile" = "请输入手机号码";
+"book.pay.prompt.msg.input.mobile.invaliadate" = "请检查您输入的手机号码";
+"book.pay.prompt.msg.input.mobile.valiadate.hint" = "请验证手机号码（仅首次需验证）";
+"book.pay.prompt.msg.choose.title" = "请选择称谓";
+"book.pay.prompt.msg.input.email" = "请填写邮箱";
+"book.pay.prompt.msg.input.check.email" = "请正确填写邮箱";
+"book.pay.prompt.msg.input.otherInfo" = "请填写出行信息";
+"book.pay.prompt.msg.input.check.selected" = "请勾选确认邮箱地址条款后才能完成支付";
+
+"book.pay.country.title" = "国家";
+"book.pay.country.frequently" = "常用国家/地区";
+"book.pay.country.search.placeholder" = "搜索国家/地区/代码";
+"book.pay.country.search.placeholder2" = "搜索国家/地区";
+"book.pay.issue.common" = "常见问题";
+"book.pay.other.traveler" = "游客";
+"book.pay.credit.edit" = "管理信用卡";
+"book.pay.credit.add" = "添加信用卡";
+"book.pay.contact.email.hint" = "此邮箱用于接收使用凭证，请认真填写并核对";
+
+"book.pay.prompt.close" = "关闭";
+"book.pay.prompt.credit.title" = "积分使用规则";
+"book.pay.prompt.credit.message" = "当您积满10客路积分后，将可在下一次预订支付时使用积分优惠。";
+"book.pay.prompt.usd.title" = "为什么以美元结算？";
+"book.pay.prompt.usd.message" = "我们接受包括港币、台币(美国运通卡除外)、美元、新币等主要货币直接支付，如选择非以上货币支付，将按照单天汇率显示换算美元金额支付。Klook客路不收取任何交易手续费用或附加费用。如您发现被收取交易手续费，请咨询发卡银行。";
+"book.pay.prompt.card.title" = "信用卡安全";
+"book.pay.prompt.card.message" = "PayPal系统之一的Braintree作为我们的付款系统供应者，为您的信用卡信息加密，任何人都无法获取您的信息。";
+"book.pay.prepare" = "准备支付中，轻触可取消";
+"book.pay.processing" = "正在支付";
+
+"book.pay.changePayType.title" = "此支付方式不支持您已选择的优惠券。如确认更改支付方式，优惠券将不被使用";
+"book.pay.changePayType.confirm" = "确定";
+"book.pay.changePayType.cancel" = "取消";
+
+"payment.cybersource.loadpage.url" = "https://www.klook.com/zh-CN/web3/cybersource/pay";
+"payment.cybersource.cancel.title" = "支付正在处理，您可以在订单页查询支付结果。若10分钟后仍未查询到成功订单，您可以选择再次购买。";
+"payment.cybersource.cancel.goToBookings" = "查看订单";
+
+"app.hint.notInstallWeChar" = "抱歉，您尚未安装微信。";
+"app.support.worktime" = "客路提供24小时电话在线客服";
+
+"app.support.phone0" = "400-869-4088 (中国境内)";
+"app.support.phone1" = "(+852) 3462-6208 (香港)";
+"app.support.phone2" = "(+886) 2-55933778 (台湾)";
+"app.support.phone3" = "(+65) 3158-3270 (新加坡)";
+"app.support.phone4" = "(+81) 3-4530-6990 (日本)";
+
+"app.refund.rule.mdfile.name" = "refundRule_zh_cn";

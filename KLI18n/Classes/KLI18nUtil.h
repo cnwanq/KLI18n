@@ -17,6 +17,9 @@
 // 设备语言代码
 @property (nonatomic, strong) NSString *deviceLanguageCode;
 
+@property (nonatomic, strong) NSString *defaultLocalize;
+@property (nonatomic, strong) NSString *currentLocalize;
+
 
 + (instancetype)shareI18nUtil;
 

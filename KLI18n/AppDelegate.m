@@ -50,6 +50,11 @@
     NSArray *i18ns = [KLI18nUtil shareI18nUtil].supportLocalizes;
     NSLog(@"All i18ns: %@", i18ns);
     
+    
+    NSArray *locales = [NSLocale availableLocaleIdentifiers];
+    NSLog(@"Available Locales: %@", locales);
+    
+    
     return YES;
 }
 
